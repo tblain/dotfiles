@@ -1,0 +1,6 @@
+2019/01/19-15:44:00.252 5544 Reusing MANIFEST /home/tblain/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/01/19-15:44:00.252 5544 Recovering log #3
+2019/01/19-15:44:00.265 5544 Reusing old log /home/tblain/.config/Atom/IndexedDB/file__0.indexeddb.leveldb/000003.log 
+2019/01/19-19:23:43.056 20926 Level-0 table #5: started
+2019/01/19-19:23:43.111 20926 Level-0 table #5: 1958733 bytes OK
+2019/01/19-19:23:43.117 20926 Delete type=0 #3

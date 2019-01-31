@@ -1,0 +1,14 @@
+{
+	"windowPosition": [
+		0,
+		70
+	],
+	"windowSize": [
+		1920,
+		1010
+	],
+	"hyper": {
+		"plugins": "{\"plugins\":[\"hyperterm-atom-dark\"],\"localPlugins\":[]}",
+		"plugin-versions": "[[\"hyperterm-atom-dark\",\"1.1.2\"]]"
+	}
+}

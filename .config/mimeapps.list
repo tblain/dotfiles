@@ -1,0 +1,7 @@
+[Default Applications]
+x-scheme-handler/ssh=ktelnetservice5.desktop
+
+[Added Associations]
+image/png=okularApplication_kimgio.desktop;
+image/jpeg=okularApplication_kimgio.desktop;
+text/plain=nvim.desktop;

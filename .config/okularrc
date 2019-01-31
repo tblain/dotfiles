@@ -1,0 +1,30 @@
+[Desktop Entry]
+FullScreen=false
+
+[MainWindow]
+Height 1080=1018
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAPBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=1920
+
+[Recent Files]
+File1[$e]=$HOME/Document/AI/Step1_sponge_mode/DS_Harvard_course/04-PandasSQL.pdf
+File10[$e]=$HOME/Downloads/guide-v62b/installer archlinux et gnome v62b.pdf
+File2[$e]=$HOME/Document/AI/Step1_sponge_mode/DS_Harvard_course/a-2017/Lectures/Lecture3-EDAViz/EDA.pdf
+File3[$e]=$HOME/.config/wallpapers/lock_heihei.png
+File4[$e]=$HOME/.config/wallpapers/spaceshuttle.png
+File5[$e]=$HOME/.config/wallpapers/space.jpg
+File6[$e]=$HOME/.config/wallpapers/simple.png
+File7[$e]=$HOME/.config/wallpapers/wallpaper_heihei.png
+File8[$e]=$HOME/.config/wallpapers/material.jpg
+File9[$e]=$HOME/.config/wallpapers/octocat.jpg
+Name1[$e]=04-PandasSQL.pdf
+Name10[$e]=installer archlinux et gnome v62b.pdf
+Name2[$e]=EDA.pdf
+Name3[$e]=lock_heihei.png
+Name4[$e]=spaceshuttle.png
+Name5[$e]=space.jpg
+Name6[$e]=simple.png
+Name7[$e]=wallpaper_heihei.png
+Name8[$e]=material.jpg
+Name9[$e]=octocat.jpg

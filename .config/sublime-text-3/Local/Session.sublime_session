@@ -1,0 +1,1617 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3176,
+	"last_window_id": 4,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 1022.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rand",
+						"randint"
+					],
+					[
+						"pi",
+						"piece_fun"
+					],
+					[
+						"Pie",
+						"PieceT"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"Pi",
+						"PieceZ"
+					],
+					[
+						"le",
+						"length"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 30.6845003934
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"pos = np.array([0, 0])",
+					"N",
+					"a",
+					"length",
+					"index",
+					"580"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"pos = np.array([3, 0])",
+					"l",
+					"t",
+					"l",
+					"name",
+					"880"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 30.6845003934
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 142.113296509
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 56.6483084186
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 942.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"rand",
+						"rand_piece"
+					],
+					[
+						"pi",
+						"piece_fun"
+					],
+					[
+						"Pie",
+						"PieceT"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"Pi",
+						"PieceZ"
+					],
+					[
+						"le",
+						"length"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "Package Control Messages\n========================\n\nMagicPython\n-----------\n\n  MagicPython\n  ===========\n  \n  Thank you for installing MagicPython -- a syntax highlighter for\n  cutting edge Python.\n  \n  You're almost there, please do the following steps to finish\n  the installation:\n  \n  * Close all open Python files;\n  \n  * Disable the \"Python\" package:\n  \n    - via Package Control by executing \"Package Control: Disable Package\";\n  \n    - or manually, by adding \"Python\" to \"ignored_packages\", in your\n      `Preferences.sublime-settings` file.\n  \n  If you find any oddities in how your Python code is highlighted, please\n  file a bug at https://github.com/MagicStack/MagicPython/issues.\n",
+					"settings":
+					{
+						"buffer_size": 692,
+						"line_ending": "Unix",
+						"name": "Package Control Messages",
+						"read_only": true,
+						"scratch": true
+					}
+				},
+				{
+					"file": "/home/tblain/Document/projets_persos/tetris_py/tetris.py",
+					"settings":
+					{
+						"buffer_size": 8619,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"contents": "# vim:filetype=i3\n# i3 config file (v4)\nset $mod Mod4\nset $editor termite\n\nset_from_resource $darkred     color1  #000000\nset_from_resource $red         color9  #000000\nset_from_resource $darkgreen   color2  #000000\nset_from_resource $green       color10 #000000\nset_from_resource $darkyellow  color3  #000000\nset_from_resource $yellow      color11 #000000\nset_from_resource $darkblue    color4  #000000\nset_from_resource $blue        color12 #000000\nset_from_resource $darkmagenta color5  #000000\nset_from_resource $magenta     color13 #000000\nset_from_resource $darkcyan    color6  #000000\nset_from_resource $cyan        color14 #000000\nset_from_resource $darkwhite   color7  #000000\nset_from_resource $white       color15 #000000\n# Use custom colors for black\nset $black       #282828\nset $darkblack   #1d2021\nset $transparent #000000\n\nset $height 34\n\nset $ws1  \"1:  \"\nset $ws2  \"2:  \"\nset $ws3  \"3:  \"\nset $ws4  \"4:  \"\nset $ws5  \"5:  \"\nset $ws6  \"6:  \"\nset $ws7  \"7:  \"\nset $ws8  \"8:  \"\nset $ws9  \"9:  \"\nset $ws10  \"10:  \"\n\nset $default_gaps_inner 0\nset $default_gaps_outer 0\ngaps inner $default_gaps_inner\ngaps outer $default_gaps_outer\n\nworkspace_auto_back_and_forth yes\nforce_display_urgency_hint 0 ms\nfocus_on_window_activation urgent\n\nfloating_minimum_size -1 x -1\nfloating_maximum_size -1 x -1\n\n#font pango:DejaVu Sans Mono 8\nfont pango:Hack, FontAwesome 12\n\n#                       BORDER      BACKGROUND  TEXT        INDICATOR   CHILD_BORDER\nclient.focused          $white      $black      $darkwhite  $darkblack  $darkblack\nclient.unfocused        $black      $black      $white      $darkblack  $darkblack\nclient.focused_inactive $black      $black      $white      $darkblack  $darkblack\nclient.urgent           $darkred    $darkred    $black      $darkred    $darkred\nclient.background       $black\n\nfloating_modifier $mod\nbindsym $mod+Return exec --no-startup-id exec $HOME/scripts/fullscreen_wrap.sh $editor\nbindsym $mod+Shift+Return exec --no-startup-id exec $HOME/scripts/fullscreen_wrap.sh $editor --name __scratchpad\n\nbindsym $mod+shift+a kill\n\nbindsym $mod+d exec --no-startup-id rofi -show run\n\nbindsym $mod+Left focus left\nbindsym $mod+Right focus right\nbindsym $mod+Up focus up\nbindsym $mod+Down focus down\n\nbindsym $mod+Shift+Left move left 35px\nbindsym $mod+Shift+Down move down 35px\nbindsym $mod+Shift+Up move up 35px\nbindsym $mod+Shift+Right move right 35px\n\nbindsym $mod+h split h\nbindsym $mod+v split v\n\n# Until I figure out a better way to use this key\nbindsym Hyper_L fullscreen\nbindsym $mod+f fullscreen\nbindsym $mod+g fullscreen global\n\nbindsym $mod+s layout stacking\nbindsym $mod+z layout tabbed\nbindsym $mod+e layout toggle split\n\nbindsym $mod+Shift+space floating toggle\nbindsym $mod+space focus mode_toggle\n\nbindsym $mod+a focus parent\nbindsym $mod+Shift+q focus child\n\nbindsym $mod+1 workspace $ws1\nbindsym $mod+2 workspace $ws2\nbindsym $mod+3 workspace $ws3\nbindsym $mod+4 workspace $ws4\nbindsym $mod+5 workspace $ws5\nbindsym $mod+6 workspace $ws6\nbindsym $mod+7 workspace $ws7\nbindsym $mod+8 workspace $ws8\nbindsym $mod+9 workspace $ws9\nbindsym $mod+0 workspace $ws10\nbindsym $mod+Tab workspace back_and_forth\n\nbindsym $mod+Shift+minus move scratchpad\nbindsym $mod+Shift+plus scratchpad show\n\nbindsym $mod+Shift+s sticky toggle\n# put YouTube into fullscreen and execute this for media mode\nbindsym $mod+y fullscreen disable; floating enable; resize set 600 400; sticky enable; move window to position 1940 54\n\nbindsym $mod+Shift+1 move container to workspace number $ws1\nbindsym $mod+Shift+2 move container to workspace number $ws2\nbindsym $mod+Shift+3 move container to workspace number $ws3\nbindsym $mod+Shift+4 move container to workspace number $ws4\nbindsym $mod+Shift+5 move container to workspace number $ws5\nbindsym $mod+Shift+6 move container to workspace number $ws6\nbindsym $mod+Shift+7 move container to workspace number $ws7\nbindsym $mod+Shift+8 move container to workspace number $ws8\nbindsym $mod+Shift+9 move container to workspace number $ws9\nbindsym $mod+Shift+0 move container to workspace number $ws10\n\nbindsym XF86AudioLowerVolume exec --no-startup-id $HOME/scripts/volume_control.py down 5\nbindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/scripts/volume_control.py up 5\nbindsym XF86AudioMute exec --no-startup-id $HOME/scripts/volume_control.py toggle\nbindsym $mod+Shift+v exec --no-startup-id \"killall pavucontrol; $HOME/scripts/fullscreen_wrap.sh pavucontrol -t 3\"\n\nbindsym XF86MonBrightnessDown exec --no-startup-id ${HOME}/scripts/backlight.sh -dec 10\nbindsym XF86MonBrightnessUp exec --no-startup-id ${HOME}/scripts/backlight.sh -inc 10\n\nbindsym $mod+Shift+w exec --no-startup-id $editor --name \"__nmtui\" -e \"nmtui-connect\"\n\nbindsym $mod+Shift+c reload\nbindsym $mod+Shift+r restart\n\n# screenshot\nbindsym --release Print exec --no-startup-id \"maim -p 0 -c 0.96,0.5,0.09 $HOME/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png\"\nbindsym --release Shift+Print exec --no-startup-id \"maim -s -p 0 -c 0.96,0.5,0.09 $HOME/Pictures/screenshot-$(date +%Y-%m-%d_%H-%M-%S).png\"\n\nbindsym $mod+n exec --no-startup-id thunar\n\nset $mode_resize resize\nbindsym $mod+r mode \"$mode_resize\"\nmode \"$mode_resize\" {\n    bindsym Left resize shrink width 10 px or 1 ppt\n    bindsym Down resize grow height 10 px or 1 ppt\n    bindsym Up resize shrink height 10 px or 1 ppt\n    bindsym Right resize grow width 10 px or 1 ppt\n\n    bindsym Shift+Left resize shrink width 20 px or 5 ppt\n    bindsym Shift+Down resize grow height 20 px or 5 ppt\n    bindsym Shift+Up resize shrink height 20 px or 5 ppt\n    bindsym Shift+Right resize grow width 20 px or 5 ppt\n\n    bindsym s mode \"default\", exec --no-startup-id $HOME/scripts/slopsize.sh\n\n    bindsym 1 mode \"default\", resize set 1000 600\n    bindsym 2 mode \"default\", resize set 1500 600\n    bindsym 3 mode \"default\", resize set 1200 1000\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\n# exit i3 (logs you out of your X session)\nbindsym $mod+Shift+e exec \"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'\"\n\nset $mode_power power\nbindsym Mod1+Control+l mode \"$mode_power\"\nmode \"$mode_power\" {\n    bindsym l mode \"default\", exec --no-startup-id $HOME/.i3/i3exit lock\n    bindsym e mode \"default\", exec --no-startup-id $HOME/.i3/i3exit logout\n    bindsym s mode \"default\", exec --no-startup-id $HOME/.i3/i3exit suspend\n    bindsym h mode \"default\", exec --no-startup-id $HOME/.i3/i3exit hibernate\n    bindsym r mode \"default\", exec --no-startup-id $HOME/.i3/i3exit reboot\n    bindsym p mode \"default\", exec --no-startup-id $HOME/.i3/i3exit shutdown\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\nset $mode_gaps gaps\nset $mode_gaps_outer outer gaps\nset $mode_gaps_inner inner gaps\nbindsym $mod+Shift+g mode \"$mode_gaps\"\nmode \"$mode_gaps\" {\n    bindsym o      mode \"$mode_gaps_outer\"\n    bindsym i      mode \"$mode_gaps_inner\"\n\n    bindsym 0      mode \"default\", exec --no-startup-id i3-msg \"gaps inner current set 0\" && i3-msg \"gaps outer current set 0\"\n    bindsym d      mode \"default\", exec --no-startup-id i3-msg \"gaps inner current set $default_gaps_inner\" && i3-msg \"gaps outer current set $default_gaps_outer\"\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\nmode \"$mode_gaps_inner\" {\n    bindsym plus  gaps inner current plus 5\n    bindsym minus gaps inner current minus 5\n    bindsym 0     mode \"default\", gaps inner current set 0\n    bindsym d     mode \"default\", gaps inner current set $default_gaps_inner\n\n    bindsym Shift+plus  gaps inner all plus 5\n    bindsym Shift+minus gaps inner all minus 5\n    bindsym Shift+0     mode \"default\", gaps inner all set 0\n    bindsym Shift+d     mode \"default\", gaps inner all set $default_gaps_inner\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\nmode \"$mode_gaps_outer\" {\n    bindsym plus  gaps outer current plus 5\n    bindsym minus gaps outer current minus 5\n    bindsym 0     mode \"default\", gaps outer current set 0\n    bindsym d     mode \"default\", gaps outer current set $default_gaps_outer\n\n    bindsym Shift+plus  gaps outer all plus 5\n    bindsym Shift+minus gaps outer all minus 5\n    bindsym Shift+0     mode \"default\", gaps outer all set 0\n    bindsym Shift+d     mode \"default\", gaps outer all set $default_gaps_outer\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\nsmart_gaps on\ngaps inner 10\n\nset $mode_brightness brightness\nbindsym $mod+Shift+b mode \"$mode_brightness\"\nmode \"$mode_brightness\" {\n    bindsym plus  exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -inc 10\n    bindsym minus exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -dec 10\n    bindsym Shift+plus  exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -inc 1\n    bindsym Shift+minus exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -dec 1\n\n    bindsym 0     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 100\n    bindsym 1     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 10\n    bindsym 2     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 20\n    bindsym 3     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 30\n    bindsym 4     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 40\n    bindsym 5     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 50\n    bindsym 6     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 60\n    bindsym 7     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 70\n    bindsym 8     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 80\n    bindsym 9     mode \"default\", exec --no-startup-id ${HOME}/scripts/backlight.sh -time 50 -set 90\n\n    bindsym Return mode \"default\"\n    bindsym Escape mode \"default\"\n}\n\n# fix graphics glitch\nnew_window none\n#for_window [class=(?i)termite] border pixel 3\n\nfor_window [window_role=\"pop-up\"] floating enable\nfor_window [window_role=\"bubble\"] floating enable\nfor_window [window_role=\"task_dialog\"] floating enable\nfor_window [window_role=\"Preferences\"] floating enable\n\nfor_window [window_type=\"dialog\"] floating enable\nfor_window [window_type=\"menu\"] floating enable\n\nfor_window [class=\"(?i)gsimplecal\"] floating enable, move position mouse, move down $height px\nfor_window [class=\"(?i)qemu-system\"] floating enable\nfor_window [class=\"(?i)VirtualBox\" title=\"(?i)Manager\"] floating enable\nfor_window [class=\"(?i)VirtualBox\"] floating enable\nfor_window [class=\"(?i)blueman\"] floating enable\nfor_window [class=\"(?i)pinentry\"] floating enable\nfor_window [class=\"(?i)nm-connection-editor\"] floating enable\n\n#for_window [instance=\"sun-awt-X11-XFramePeer\"] floating enable\nfor_window [instance=\"__scratchpad\"] floating enable\nfor_window [instance=\"__nmtui\"] floating enable\nfor_window [class=\"(?i)recordmydesktop\"] floating enable\n\nfor_window [class=\"(?i)pavucontrol\"] floating enable, move position mouse\nfor_window [class=\"(?i)pavucontrol\" instance=\"pavucontrol-bar\"] move down $height px\n\nexec_always --no-startup-id $HOME/.config/polybar/launch.sh\n\nbar {\n    verbose yes\n    status_command i3blocks\n    i3bar_command i3bar -t\n    position top\n    font pango:Hack, FontAwesome 10\n    strip_workspace_numbers no\n    separator_symbol \"■\"\n    bindsym button4 nop\n    bindsym button5 nop\n    tray_padding 0\n    tray_output eDP1\n    height $height\n    colors {\n        statusline         $white\n        background         $transparent\n        separator          $transparent\n\n#                          BORDER       BACKGROUND   TEXT\n        focused_workspace  $transparent $transparent $darkwhite\n        inactive_workspace $transparent $transparent $white\n        active_workspace   $transparent $transparent $white\n        urgent_workspace   $darkred     $darkred     $transparent\n        binding_mode       $darkred     $darkred     $transparent\n    }\n}\n\n#bar {\n#    verbose yes\n#    status_command i3blocks\n#    i3bar_command i3bar -t\n#    position top\n#    font pango:Hack, FontAwesome 10\n#    strip_workspace_numbers no\n#    separator_symbol \"■\"\n#    bindsym button4 nop\n#    bindsym button5 nop\n#    tray_padding 0\n#    tray_output eDP1\n#    height $height\n#    colors {\n#        statusline         $white\n#        background         $transparent\n#        separator          $transparent\n#\n#                          BORDER       BACKGROUND   TEXT\n#        focused_workspace  $transparent $transparent $darkwhite\n#        inactive_workspace $transparent $transparent $white\n#        active_workspace   $transparent $transparent $white\n#        urgent_workspace   $darkred     $darkred     $transparent\n#        binding_mode       $darkred     $darkred     $transparent\n#    }\n#}vim\n\n# binds perso\nbindsym $mod+Next exec pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo -10%\nbindsym $mod+Prior exec pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo +10%\nbindsym $mod+End exec pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo toggle\nbindsym $mod+F1 exec firefox\nbindsym $mod+F2 exec Discord\nbindsym $mod+F3 exec atom\nbindsym $mod+F4 exec alsamixer\n\n# AUTOSTART\nexec_always --no-startup-id feh --bg-fill $HOME/.config/wallpapers/octocat.jpg\nexec --no-startup-id compton -b\n\nexec --no-startup-id nm-applet &\nexec --no-startup-id redshift -l 45.75:4.85\n\nexec --no-startup-id dunst &\n\nexec_always --no-startup-id \"pgrep --exact xev || xev -root -event randr | grep --line-buffered ScreenChangeNotify | while read change; do pkill -RTMIN+4 i3blocks; done\"\n",
+					"file": "/home/tblain/.config/i3/config",
+					"file_size": 13763,
+					"file_write_time": 131931537425666878,
+					"settings":
+					{
+						"buffer_size": 13742,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tblain/.config/polybar/polybar.conf",
+					"settings":
+					{
+						"buffer_size": 5070,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tblain/.config/polybar/launch.sh",
+					"settings":
+					{
+						"buffer_size": 287,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tblain/Document/projets_persos/particle_life_py/particle_life.py",
+					"settings":
+					{
+						"buffer_size": 4090,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tblain/Document/projet/reunion",
+					"settings":
+					{
+						"buffer_size": 7199,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "/home/tblain/Document/trip",
+					"settings":
+					{
+						"buffer_size": 338,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/tblain/.config/polybar/config",
+				"/home/tblain/Document/projets_persos/tetris_py/tetris.py",
+				"/home/tblain/Document/projets_persos/particle_life_py/particle_life.py"
+			],
+			"find":
+			{
+				"height": 84.1856805665
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"10",
+					"pos = np.array([0, 0])",
+					"N",
+					"a",
+					"length",
+					"index",
+					"580"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"pos = np.array([3, 0])",
+					"l",
+					"t",
+					"l",
+					"name",
+					"880"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 692,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										355,
+										355
+									]
+								],
+								"settings":
+								{
+									"auto_indent": false,
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"default_dir": "/home/tblain/Document/projets_persos/particle_life_py",
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage",
+									"tab_width": 2,
+									"word_wrap": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 7,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/tblain/Document/projets_persos/tetris_py/tetris.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 8619,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2854,
+										2854
+									]
+								],
+								"settings":
+								{
+									"SL.14.region_keys":
+									[
+									],
+									"SL.35.region_keys":
+									[
+									],
+									"auto_complete": false,
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1700.23603462,
+								"zoom_level": 1.0
+							},
+							"stack_index": 4,
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "/home/tblain/.config/i3/config",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 13742,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										12929,
+										12929
+									]
+								],
+								"settings":
+								{
+									"SL.18.region_keys":
+									[
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 6659.32336743,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "/home/tblain/.config/polybar/polybar.conf",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 5070,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1156,
+										1156
+									]
+								],
+								"settings":
+								{
+									"SL.21.region_keys":
+									[
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 460.267505901,
+								"zoom_level": 1.0
+							},
+							"stack_index": 2,
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "/home/tblain/.config/polybar/launch.sh",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 287,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										179,
+										179
+									]
+								],
+								"settings":
+								{
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+											"1":
+											[
+												175,
+												179
+											]
+										},
+										"icon":
+										{
+											"1":
+											[
+												"Packages/BracketHighlighter/icons/dot.png",
+												"region.yellowish brackethighlighter.default"
+											]
+										},
+										"open":
+										{
+											"1":
+											[
+												128,
+												133
+											]
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/ShellScript/Bash.sublime-syntax"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 3,
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "/home/tblain/Document/projets_persos/particle_life_py/particle_life.py",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 4090,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"SL.15.region_keys":
+									[
+									],
+									"SL.36.region_keys":
+									[
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": 15,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content"
+									],
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/Python/Python.sublime-syntax",
+									"tab_size": 4,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1678.99291896,
+								"zoom_level": 1.0
+							},
+							"stack_index": 5,
+							"type": "text"
+						},
+						{
+							"buffer": 6,
+							"file": "/home/tblain/Document/projet/reunion",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 7199,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										334,
+										334
+									]
+								],
+								"settings":
+								{
+									"SL.15.region_keys":
+									[
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 7,
+							"file": "/home/tblain/Document/trip",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 338,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"SL.16.region_keys":
+									[
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"git_gutter_is_enabled": false,
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 6,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 38.5523210071
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 142.113296509
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,966,46,1908,1068,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 72.3839496459
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 191.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
