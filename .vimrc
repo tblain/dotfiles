@@ -56,6 +56,9 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let python_highlight_all=1
 syntax on
 
+""let g:ycm_global_ycm_extra_conf = '/home/tblain/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+let g:ycm_global_ycm_extra_conf = '~/.vim/plugged/youcompleteme/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'
+
 "set background=dark
 colorscheme 1989
 
@@ -65,3 +68,7 @@ set nu
 set mouse=a
 
 set clipboard=unnamed
+
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+autocmd vimenter * NERDTree
