@@ -106,6 +106,9 @@ bindkey '^[[1;3D' backward-word
 bindkey '^[[3;5~' delete-word
 bindkey '^H' backward-delete-word
 
-xinput disable 10
-
 neofetch
+
+export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64:/usr/local/cuda/extras/CUPTI/lib64"
+export CUDA_HOME=/usr/local/cuda-9.0
+export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
+export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
