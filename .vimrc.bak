@@ -25,7 +25,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Bundle 'Valloric/YouCompleteMe'
-Plugin 'nvie/vim-flake8'
 
 " color scheme
 Plugin 'DankNeon/vim'
@@ -47,23 +46,13 @@ nnoremap <space> za
 let g:SimpylFold_docstring_preview=1
 
 au BufNewFile,BufRead *.py:
-			\ set tabstop=4
-			\ set softtabstop=4
-			\ set shiftwidth=4
-			\ set textwidth=79
-			\ set expandtab
-			\ set autoindent
-			\ set fileformat=unix
-
-au BufNewFile,BufRead *.cpp:
-			\ set tabstop=1
-			\ set softtabstop=1
-			\ set shiftwidth=1
-			\ set textwidth=79
-			\ set expandtab
-			\ set autoindent
-			\ set fileformat=unix
-
+    \ set tabstop=4
+    \ set softtabstop=4
+    \ set shiftwidth=4
+    \ set textwidth=79
+    \ set expandtab
+    \ set autoindent
+    \ set fileformat=unix
 
 set encoding=utf-8
 
@@ -94,9 +83,10 @@ set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
 set statusline+=%*
 
-let g:syntastic_always_populate_loc_list = 0
+let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " Nerd commenter config
 " Add spaces after comment delimiters by default
