@@ -65,17 +65,24 @@ bindsym $mod+shift+a kill
 
 bindsym $mod+d exec --no-startup-id rofi -show run
 
-bindsym $mod+Left focus left
-bindsym $mod+Right focus right
-bindsym $mod+Up focus up
-bindsym $mod+Down focus down
+#bindsym $mod+Left focus left
+#bindsym $mod+Right focus right
+#bindsym $mod+Up focus up
+#bindsym $mod+Down focus down
 
-bindsym $mod+Shift+Left move left 35px
-bindsym $mod+Shift+Down move down 35px
-bindsym $mod+Shift+Up move up 35px
-bindsym $mod+Shift+Right move right 35px
+focus_follows_mouse no
 
-bindsym $mod+h split h
+bindsym $mod+h focus left
+bindsym $mod+l focus right
+bindsym $mod+k focus up
+bindsym $mod+j focus down
+
+bindsym $mod+Shift+h move left 35px
+bindsym $mod+Shift+j move down 35px
+bindsym $mod+Shift+k move up 35px
+bindsym $mod+Shift+l move right 35px
+
+bindsym $mod+SHIFT+v split h
 bindsym $mod+v split v
 
 # Until I figure out a better way to use this key
@@ -126,7 +133,7 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 bindsym XF86AudioLowerVolume exec --no-startup-id $HOME/scripts/volume_control.py down 5
 bindsym XF86AudioRaiseVolume exec --no-startup-id $HOME/scripts/volume_control.py up 5
 bindsym XF86AudioMute exec --no-startup-id $HOME/scripts/volume_control.py toggle
-bindsym $mod+Shift+v exec --no-startup-id "killall pavucontrol; $HOME/scripts/fullscreen_wrap.sh pavucontrol -t 3"
+#bindsym $mod+Shift+v exec --no-startup-id "killall pavucontrol; $HOME/scripts/fullscreen_wrap.sh pavucontrol -t 3"
 
 bindsym XF86MonBrightnessDown exec --no-startup-id ${HOME}/scripts/backlight.sh -dec 10
 bindsym XF86MonBrightnessUp exec --no-startup-id ${HOME}/scripts/backlight.sh -inc 10
@@ -294,8 +301,9 @@ bar {
     separator_symbol "■"
     bindsym button4 nop
     bindsym button5 nop
+    bindsym button1 nop
     tray_padding 0
-    tray_output eDP1
+    tray_output primary
     height $height
     colors {
         statusline         $white
@@ -343,16 +351,21 @@ bindsym $mod+Next exec pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog
 bindsym $mod+Prior exec pactl set-sink-volume alsa_output.pci-0000_00_1f.3.analog-stereo +10%
 bindsym $mod+End exec pactl set-sink-mute alsa_output.pci-0000_00_1f.3.analog-stereo toggle
 bindsym $mod+F1 exec firefox
-bindsym $mod+F2 exec Discord
-bindsym $mod+F3 exec atom
+bindsym $mod+F2 exec Sublime-text
+bindsym $mod+F3 exec Discord
 bindsym $mod+F4 exec alsamixer
+bindsym $mod+Shift+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/maria-popova-1920x1080.jpg
+bindsym $mod+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/proxy.duckduckgo.com.jpg
 
 # AUTOSTART
-exec_always --no-startup-id feh --bg-fill $HOME/.config/wallpapers/octocat.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/proxy.duckduckgo.com.jpg
 exec --no-startup-id compton -b
+exec_always xinput disable 9
+exec_always xinput disable 10
 
-exec --no-startup-id nm-applet &
+#exec --no-startup-id nm-applet &
 exec --no-startup-id redshift -l 45.75:4.85
+exec --no-startup-id xautolock -time 10 -locker "i3lock -i ~/Pictures/wallpaper/screensaver.png" &
 
 exec --no-startup-id dunst &
 

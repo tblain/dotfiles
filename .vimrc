@@ -26,6 +26,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Bundle 'Valloric/YouCompleteMe'
 Plugin 'nvie/vim-flake8'
+Plugin 'junegunn/fzf'
+Plugin 'junegunn/fzf.vim'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'Yggdroot/indentLine'
 
 " color scheme
 Plugin 'DankNeon/vim'
@@ -79,7 +83,7 @@ map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 let python_highlight_all=1
 syntax on
 
-"set background=dark
+" set background=dark
 colorscheme  malokai
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
@@ -110,3 +114,21 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " activer nerdtree en entrant dans vim
 "autocmd vimenter * NERDTree
 
+" desactivation des touches fleches
+nnoremap <up>    <nop>
+nnoremap <down>  <nop>
+nnoremap <left>  <nop>
+nnoremap <right> <nop>
+inoremap <up>    <nop>
+inoremap <down>  <nop>
+inoremap <left>  <nop>
+inoremap <right> <nop>
+
+" FZF
+" map ; :Files<CR>
+" escape remap to jj
+:imap jj <Esc>
+
+" indent-guide
+" Vim
+""let g:indentLine_color_term = 239
