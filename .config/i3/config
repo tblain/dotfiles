@@ -354,11 +354,11 @@ bindsym $mod+F1 exec firefox
 bindsym $mod+F2 exec Sublime-text
 bindsym $mod+F3 exec Discord
 bindsym $mod+F4 exec alsamixer
-bindsym $mod+Shift+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/maria-popova-1920x1080.jpg
-bindsym $mod+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/proxy.duckduckgo.com.jpg
+bindsym $mod+Shift+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/scott/1501715793841.jpg
+bindsym $mod+p exec --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/space/No-Mans-Sky-4-K-Wallpaper.jpg
 
 # AUTOSTART
-exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/proxy.duckduckgo.com.jpg
+exec_always --no-startup-id feh --bg-fill $HOME/Pictures/wallpaper/space/No-Mans-Sky-4-K-Wallpaper.jpg
 exec --no-startup-id compton -b
 exec_always xinput disable 9
 exec_always xinput disable 10
