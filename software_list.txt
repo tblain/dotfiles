@@ -1,0 +1,27 @@
+exa : better ls with color
+
+vim
+
+nvim
+
+dfc : list drives
+
+baobab:
+
+okular : visualizing pictures
+
+ranger
+
+sublime text
+
+discord
+
+gitcola
+
+thunar
+
+libreoffice
+
+quassel
+
+ncmpcpp

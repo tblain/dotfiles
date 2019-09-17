@@ -69,6 +69,15 @@ au BufNewFile,BufRead *.cpp:
 			\ set fileformat=unix
 
 
+au BufNewFile,BufRead *.java:
+			\ set tabstop=4
+			\ set softtabstop=4
+			\ set shiftwidth=4
+			\ set textwidth=79
+			\ set expandtab
+			\ set autoindent
+			\ set fileformat=unix
+
 set encoding=utf-8
 
 " at least two lines of context visible around the cursor at all times
@@ -88,7 +97,10 @@ colorscheme  malokai
 
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
-set nu
+set number
+set relativenumber
+set cursorline
+
 set mouse=a
 
 set clipboard=unnamed
@@ -119,15 +131,14 @@ nnoremap <up>    <nop>
 nnoremap <down>  <nop>
 nnoremap <left>  <nop>
 nnoremap <right> <nop>
-inoremap <up>    <nop>
-inoremap <down>  <nop>
-inoremap <left>  <nop>
-inoremap <right> <nop>
 
 " FZF
 " map ; :Files<CR>
 " escape remap to jj
 :imap jj <Esc>
+:imap jk <Esc>
+:imap kj <Esc>
+:imap kk <Esc>
 
 " indent-guide
 " Vim
