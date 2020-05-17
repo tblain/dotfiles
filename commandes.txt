@@ -1,0 +1,39 @@
+# loader toutes les fonts au format .pcf d'un dossier
+xset +fp ~/.
+
+# 'reinit' toutes les fontes
+fc-cache -f -v
+
+# gerer le son
+pactl
+
+# afficher toutes les fontes
+# ne fonctionne pas sous laptop arch xlsfonts
+fc-list
+
+# ajuster la luminisité en root
+/sys/class/backlight/intel_backlight/brightness
+
+# afficher la liste des input (touchscreen, touchpad, camera, etc.)
+xinput
+# rajouter disable + id de l'input
+
+# se co avec network manager
+nmcli device wifi connect [nom du réseau] password [password]
+
+# supprimer le bip system
+echo "blacklist pcspkr" >> /etc/modprobe.d/blacklist.conf
+
+# demarrer le server de music
+mpd .mpd/mpd.conf
+
+# utiliser ly comme login manager
+Disable other display managers.
+Enable ly.service.
+Disable getty@tty2.service: getty on the tty used by Ly (tty2 by default), to prevent login from spawning on top of it.
+
+# tbsm login manager
+lance dans /etc/profile
+
+# lister tous les fichiers dans le dossier et les trie par taille en mega
+du -M --all | sort -n
