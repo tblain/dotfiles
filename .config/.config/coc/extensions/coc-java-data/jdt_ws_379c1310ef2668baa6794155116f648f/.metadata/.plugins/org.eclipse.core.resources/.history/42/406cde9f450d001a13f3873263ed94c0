@@ -1,0 +1,85 @@
+package univ.m1if10.classes;
+
+import univ.m1if10.classes.Utilisateur;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import javax.persistence.CascadeType;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
+import javax.persistence.Table;
+
+/**
+ * Question
+ */
+
+@Entity
+@Table(name="MATIERE")
+public class Matiere implements Serializable {
+
+    @Id
+    @GeneratedValue
+    private int id;
+
+    private String nom;
+
+    @ManyToOne
+    @JoinColumn(name="ID_PROF")
+    private Utilisateur prof;
+
+    @OneToMany(mappedBy="matiere")
+    public Collection<Questionnaire> questionnnaires = new ArrayList<>();
+
+    public Matiere() {
+    }
+
+    public Matiere(String nom, Utilisateur prof) {
+	this.nom = nom;
+	this.prof = prof;
+    }
+
+    /**
+     * @return String return the intitule
+     */
+    public String getNom() {
+        return nom;
+    }
+
+    /**
+     * @param intitule the intitule to set
+     */
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    /**
+     * @return int return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Utilisateur getProf() {
+	return prof;
+    }
+
+    public void setProf(Utilisateur prof) {
+	this.prof = prof;
+    }
+
+}
+

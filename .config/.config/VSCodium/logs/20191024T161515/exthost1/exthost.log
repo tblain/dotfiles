@@ -1,0 +1,134 @@
+[2019-10-24 16:15:18.264] [exthost] [info] extension host started
+[2019-10-24 16:15:18.407] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":false,"extensionId":{"value":"vscjava.vscode-maven","_lower":"vscjava.vscode-maven"},"activationEvent":"onLanguage:xml"}
+[2019-10-24 16:15:18.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-maven-0.19.1/dist/extension
+[2019-10-24 16:15:18.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-24 16:15:18.581] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-24 16:15:18.586] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-24 16:15:18.586] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/extension
+[2019-10-24 16:15:18.671] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-10-24 16:15:18.671] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2019-10-24 16:15:18.767] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-24 16:15:18.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-24 16:15:18.773] [exthost] [info] ExtensionService#_doActivateExtension YouMayCallMeV.vscode-java-saber {"startup":true,"extensionId":{"value":"YouMayCallMeV.vscode-java-saber","_lower":"youmaycallmev.vscode-java-saber"},"activationEvent":"*"}
+[2019-10-24 16:15:18.773] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/youmaycallmev.vscode-java-saber-0.1.0/extension
+[2019-10-24 16:15:18.818] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":true,"extensionId":{"value":"redhat.java","_lower":"redhat.java"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:15:18.819] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension
+[2019-10-24 16:15:18.938] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":true,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:15:18.939] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-pack-0.8.0/out/extension
+[2019-10-24 16:15:19.133] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":true,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:15:19.133] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-debug-0.22.0/dist/extension
+[2019-10-24 16:15:25.657] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency {"startup":true,"extensionId":{"value":"vscjava.vscode-java-dependency","_lower":"vscjava.vscode-java-dependency"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:15:25.657] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.6.0/dist/extension
+[2019-10-24 16:15:25.786] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":true,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:15:25.786] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension
+[2019-10-24 16:15:26.180] [exthost] [info] eager extensions activated
+[2019-10-24 16:16:46.620] [exthost] [info] ExtensionService#_doActivateExtension faustinoaq.javac-linter {"startup":false,"extensionId":{"value":"faustinoaq.javac-linter","_lower":"faustinoaq.javac-linter"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:16:46.620] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/faustinoaq.javac-linter-1.3.1/out/src/Main
+[2019-10-24 16:16:46.628] [exthost] [info] ExtensionService#_doActivateExtension shengchen.vscode-checkstyle {"startup":false,"extensionId":{"value":"shengchen.vscode-checkstyle","_lower":"shengchen.vscode-checkstyle"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:16:46.629] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/shengchen.vscode-checkstyle-1.3.2/dist/extension
+[2019-10-24 16:16:46.861] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:16:46.861] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode
+[2019-10-24 16:20:21.453] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:20:21.457] [exthost] [error] Error: The request (id: 45, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:21:15.198] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:21:15.198] [exthost] [error] Error: The request (id: 171, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:21:15.461] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:21:15.461] [exthost] [error] Error: The request (id: 174, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:21:18.541] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:21:18.541] [exthost] [error] Error: The request (id: 189, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:21:18.891] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:21:18.891] [exthost] [error] Error: The request (id: 192, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:21:29.970] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:21:29.970] [exthost] [error] Error: The request (id: 233, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:30:23.728] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:30:23.728] [exthost] [error] Error: The request (id: 292, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:30:57.837] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:30:57.838] [exthost] [error] Error: The request (id: 396, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:35:41.051] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:35:41.051] [exthost] [error] Error: The request (id: 410, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:35:50.601] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:35:50.602] [exthost] [error] Error: The request (id: 427, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:36:43.534] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:36:43.534] [exthost] [error] Error: The request (id: 440, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:36:43.836] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:36:43.836] [exthost] [error] Error: The request (id: 441, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:36:44.376] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:36:44.376] [exthost] [error] Error: The request (id: 442, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)

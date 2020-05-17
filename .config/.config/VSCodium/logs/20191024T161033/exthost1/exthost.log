@@ -1,0 +1,224 @@
+[2019-10-24 16:10:36.477] [exthost] [info] extension host started
+[2019-10-24 16:10:36.665] [exthost] [info] ExtensionService#_doActivateExtension faustinoaq.javac-linter {"startup":false,"extensionId":{"value":"faustinoaq.javac-linter","_lower":"faustinoaq.javac-linter"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:36.666] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/faustinoaq.javac-linter-1.3.1/out/src/Main
+[2019-10-24 16:10:36.675] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:36.675] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension
+[2019-10-24 16:10:36.836] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:36.836] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode
+[2019-10-24 16:10:37.059] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":false,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:37.059] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-debug-0.22.0/dist/extension
+[2019-10-24 16:10:37.115] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":false,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:37.115] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-pack-0.8.0/out/extension
+[2019-10-24 16:10:37.305] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-24 16:10:37.305] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-24 16:10:37.312] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-24 16:10:37.312] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/extension
+[2019-10-24 16:10:37.361] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-10-24 16:10:37.361] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2019-10-24 16:10:37.473] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-24 16:10:37.473] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-24 16:10:37.483] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2019-10-24 16:10:37.483] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscodevim.vim-1.11.2/out/extension
+[2019-10-24 16:10:37.651] [exthost] [info] ExtensionService#_doActivateExtension YouMayCallMeV.vscode-java-saber {"startup":true,"extensionId":{"value":"YouMayCallMeV.vscode-java-saber","_lower":"youmaycallmev.vscode-java-saber"},"activationEvent":"*"}
+[2019-10-24 16:10:37.651] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/youmaycallmev.vscode-java-saber-0.1.0/extension
+[2019-10-24 16:10:38.734] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"extensionId":{"value":"vscjava.vscode-maven","_lower":"vscjava.vscode-maven"},"activationEvent":"workspaceContains:**/pom.xml"}
+[2019-10-24 16:10:38.734] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-maven-0.19.1/dist/extension
+[2019-10-24 16:10:41.254] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:10:41.263] [exthost] [error] Error: Language client is not ready yet
+	at t.LanguageClient.sendRequest (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:109565)
+	at l.<anonymous> (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:27208)
+	at Generator.next (<anonymous>)
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25748
+	at new Promise (<anonymous>)
+	at r (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25525)
+	at l.provideHover (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:26987)
+	at o.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:169)
+	at Promise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:649)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:621)
+	at w.provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:140)
+	at _withAdapter.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:653)
+	at U._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:566:593)
+	at U.$provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:631)
+	at p._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:635:275)
+	at p._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:634:971)
+	at p._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:633:588)
+	at p._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:632:468)
+	at _protocol.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:630:691)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at e.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:104)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:185:629)
+	at _socketDisposables.push._socketReader.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:182:824)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:178:588)
+	at _register._socket.onData.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:177:958)
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:68)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-10-24 16:10:42.276] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:10:42.276] [exthost] [error] Error: Language client is not ready yet
+	at t.LanguageClient.sendRequest (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:109565)
+	at l.<anonymous> (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:27208)
+	at Generator.next (<anonymous>)
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25748
+	at new Promise (<anonymous>)
+	at r (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25525)
+	at l.provideHover (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:26987)
+	at o.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:169)
+	at Promise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:649)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:621)
+	at w.provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:140)
+	at _withAdapter.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:653)
+	at U._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:566:593)
+	at U.$provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:631)
+	at p._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:635:275)
+	at p._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:634:971)
+	at p._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:633:588)
+	at p._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:632:468)
+	at _protocol.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:630:691)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at e.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:104)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:185:629)
+	at _socketDisposables.push._socketReader.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:182:824)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:178:588)
+	at _register._socket.onData.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:177:958)
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:68)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-10-24 16:10:42.688] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:10:42.688] [exthost] [error] Error: Language client is not ready yet
+	at t.LanguageClient.sendRequest (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:109565)
+	at l.<anonymous> (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:27208)
+	at Generator.next (<anonymous>)
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25748
+	at new Promise (<anonymous>)
+	at r (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25525)
+	at l.provideHover (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:26987)
+	at o.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:169)
+	at Promise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:649)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:621)
+	at w.provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:140)
+	at _withAdapter.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:653)
+	at U._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:566:593)
+	at U.$provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:631)
+	at p._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:635:275)
+	at p._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:634:971)
+	at p._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:633:588)
+	at p._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:632:468)
+	at _protocol.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:630:691)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at e.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:104)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:185:629)
+	at _socketDisposables.push._socketReader.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:182:824)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:178:588)
+	at _register._socket.onData.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:177:958)
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:68)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-10-24 16:10:43.060] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:10:43.060] [exthost] [error] Error: Language client is not ready yet
+	at t.LanguageClient.sendRequest (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:109565)
+	at l.<anonymous> (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:27208)
+	at Generator.next (<anonymous>)
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25748
+	at new Promise (<anonymous>)
+	at r (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:25525)
+	at l.provideHover (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:7:26987)
+	at o.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:169)
+	at Promise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:649)
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:55:621)
+	at w.provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:553:140)
+	at _withAdapter.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:653)
+	at U._withAdapter (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:566:593)
+	at U.$provideHover (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:569:631)
+	at p._doInvokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:635:275)
+	at p._invokeHandler (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:634:971)
+	at p._receiveRequest (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:633:588)
+	at p._receiveOneMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:632:468)
+	at _protocol.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:630:691)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at e.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:787:104)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at _.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:181:274)
+	at t.PersistentProtocol._receiveMessage (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:185:629)
+	at _socketDisposables.push._socketReader.onMessage.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:182:824)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:519)
+	at p.acceptChunk (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:178:588)
+	at _register._socket.onData.e (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:177:958)
+	at Socket.t (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:187:68)
+	at Socket.emit (events.js:182:13)
+	at addChunk (_stream_readable.js:283:12)
+	at readableAddChunk (_stream_readable.js:264:11)
+	at Socket.Readable.push (_stream_readable.js:219:10)
+	at Pipe.onStreamRead [as onread] (internal/stream_base_commons.js:94:17)
+[2019-10-24 16:10:51.096] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency {"startup":true,"extensionId":{"value":"vscjava.vscode-java-dependency","_lower":"vscjava.vscode-java-dependency"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:10:51.096] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.6.0/dist/extension
+[2019-10-24 16:10:51.349] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":true,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:10:51.350] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension
+[2019-10-24 16:10:52.297] [exthost] [info] eager extensions activated
+[2019-10-24 16:10:53.422] [exthost] [info] ExtensionService#_doActivateExtension shengchen.vscode-checkstyle {"startup":false,"extensionId":{"value":"shengchen.vscode-checkstyle","_lower":"shengchen.vscode-checkstyle"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:10:53.422] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/shengchen.vscode-checkstyle-1.3.2/dist/extension
+[2019-10-24 16:10:53.645] [exthost] [error] [redhat.java] provider FAILED
+[2019-10-24 16:10:53.646] [exthost] [error] Error: The request (id: 9, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-24 16:11:16.313] [exthost] [info] extension host started
+[2019-10-24 16:11:16.381] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2019-10-24 16:11:16.383] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2019-10-24 16:11:16.393] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2019-10-24 16:11:16.394] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/extension
+[2019-10-24 16:11:16.475] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2019-10-24 16:11:16.476] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2019-10-24 16:11:16.558] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2019-10-24 16:11:16.558] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/extension
+[2019-10-24 16:11:16.562] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim {"startup":true,"extensionId":{"value":"vscodevim.vim","_lower":"vscodevim.vim"},"activationEvent":"*"}
+[2019-10-24 16:11:16.563] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscodevim.vim-1.11.2/out/extension
+[2019-10-24 16:11:16.696] [exthost] [info] ExtensionService#_doActivateExtension YouMayCallMeV.vscode-java-saber {"startup":true,"extensionId":{"value":"YouMayCallMeV.vscode-java-saber","_lower":"youmaycallmev.vscode-java-saber"},"activationEvent":"*"}
+[2019-10-24 16:11:16.696] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/youmaycallmev.vscode-java-saber-0.1.0/extension
+[2019-10-24 16:11:16.733] [exthost] [info] ExtensionService#_doActivateExtension redhat.java {"startup":true,"extensionId":{"value":"redhat.java","_lower":"redhat.java"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:11:16.733] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension
+[2019-10-24 16:11:16.833] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-pack {"startup":true,"extensionId":{"value":"vscjava.vscode-java-pack","_lower":"vscjava.vscode-java-pack"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:11:16.833] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-pack-0.8.0/out/extension
+[2019-10-24 16:11:16.986] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-debug {"startup":true,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:11:16.986] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-debug-0.22.0/dist/extension
+[2019-10-24 16:11:17.059] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-maven {"startup":true,"extensionId":{"value":"vscjava.vscode-maven","_lower":"vscjava.vscode-maven"},"activationEvent":"workspaceContains:**/pom.xml"}
+[2019-10-24 16:11:17.059] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-maven-0.19.1/dist/extension
+[2019-10-24 16:11:31.119] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-dependency {"startup":true,"extensionId":{"value":"vscjava.vscode-java-dependency","_lower":"vscjava.vscode-java-dependency"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:11:31.127] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-dependency-0.6.0/dist/extension
+[2019-10-24 16:11:31.630] [exthost] [info] ExtensionService#_doActivateExtension vscjava.vscode-java-test {"startup":true,"extensionId":{"value":"vscjava.vscode-java-test","_lower":"vscjava.vscode-java-test"},"activationEvent":"workspaceContains:pom.xml"}
+[2019-10-24 16:11:31.631] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension
+[2019-10-24 16:11:33.146] [exthost] [info] eager extensions activated
+[2019-10-24 16:12:02.798] [exthost] [info] ExtensionService#_doActivateExtension faustinoaq.javac-linter {"startup":false,"extensionId":{"value":"faustinoaq.javac-linter","_lower":"faustinoaq.javac-linter"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:12:02.798] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/faustinoaq.javac-linter-1.3.1/out/src/Main
+[2019-10-24 16:12:02.802] [exthost] [info] ExtensionService#_doActivateExtension shengchen.vscode-checkstyle {"startup":false,"extensionId":{"value":"shengchen.vscode-checkstyle","_lower":"shengchen.vscode-checkstyle"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:12:02.802] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/shengchen.vscode-checkstyle-1.3.2/dist/extension
+[2019-10-24 16:12:02.990] [exthost] [info] ExtensionService#_doActivateExtension VisualStudioExptTeam.vscodeintellicode {"startup":false,"extensionId":{"value":"VisualStudioExptTeam.vscodeintellicode","_lower":"visualstudioexptteam.vscodeintellicode"},"activationEvent":"onLanguage:java"}
+[2019-10-24 16:12:02.990] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/tblain/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/dist/intellicode

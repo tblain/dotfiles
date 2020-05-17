@@ -1,0 +1,69 @@
+package univ.m1if10.classes;
+
+/**
+ * Question
+ */
+public class Question {
+
+    private String type;
+    private String intitule;
+	private int id;
+    private int idQuizz;
+
+    /**
+     * @return String return the type
+     */
+    public String getType() {
+        return type;
+    }
+
+    /**
+     * @param type the type to set
+     */
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    /**
+     * @return String return the intitule
+     */
+    public String getIntitule() {
+        return intitule;
+    }
+
+    /**
+     * @param intitule the intitule to set
+     */
+    public void setIntitule(String intitule) {
+        this.intitule = intitule;
+    }
+
+    /**
+     * @return int return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return int return the idQuizz
+     */
+    public int getIdQuizz() {
+        return idQuizz;
+    }
+
+    /**
+     * @param idQuizz the idQuizz to set
+     */
+    public void setIdQuizz(int idQuizz) {
+        this.idQuizz = idQuizz;
+    }
+
+}

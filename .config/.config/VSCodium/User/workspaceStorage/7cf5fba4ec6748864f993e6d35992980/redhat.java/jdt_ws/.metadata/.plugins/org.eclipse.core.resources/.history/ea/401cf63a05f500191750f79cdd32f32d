@@ -1,0 +1,55 @@
+package univ.m1if10.classes.Model;
+
+/**
+ * Reponse
+ */
+public class Reponse {
+
+    private int idQuestion;
+	private int id;
+	private String text;
+    // il manque un attribut que j'ai pas reussis a lire
+
+    /**
+     * @return int return the idQuestion
+     */
+    public int getIdQuestion() {
+        return idQuestion;
+    }
+
+    /**
+     * @param idQuestion the idQuestion to set
+     */
+    public void setIdQuestion(int idQuestion) {
+        this.idQuestion = idQuestion;
+    }
+
+    /**
+     * @return int return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return String return the text
+     */
+    public String getText() {
+        return text;
+    }
+
+    /**
+     * @param text the text to set
+     */
+    public void setText(String text) {
+        this.text = text;
+    }
+
+}

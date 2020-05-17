@@ -1,0 +1,42 @@
+[2019-10-22 21:01:29.268] [renderer1] [error] The request (id: 115, method: 'textDocument/hover') has been cancelled: Error: The request (id: 115, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-22 21:20:30.250] [renderer1] [error] The request (id: 825, method: 'textDocument/hover') has been cancelled: Error: The request (id: 825, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-22 21:29:16.620] [renderer1] [error] The request (id: 937, method: 'textDocument/hover') has been cancelled: Error: The request (id: 937, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-22 21:36:42.329] [renderer1] [error] The request (id: 2155, method: 'textDocument/hover') has been cancelled: Error: The request (id: 2155, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-22 21:56:16.863] [renderer1] [error] The request (id: 3518, method: 'textDocument/hover') has been cancelled: Error: The request (id: 3518, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)
+[2019-10-22 23:27:46.600] [renderer1] [error] The request (id: 243, method: 'textDocument/hover') has been cancelled: Error: The request (id: 243, method: 'textDocument/hover') has been cancelled
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68555
+	at /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:68849
+	at Immediate.G.Y.size.setImmediate (/home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/dist/extension.js:1:69210)
+	at runCallback (timers.js:694:18)
+	at tryOnImmediate (timers.js:665:5)
+	at processImmediate (timers.js:647:5)

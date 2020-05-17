@@ -1,0 +1,573 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tblain/Document/cours/M1/web/conception_web
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show HEAD:TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git ls-tree -l HEAD -- TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tblain/Document/cours/M1/web/conception_web/TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tblain/Document/cours/M1/web/conception_web/.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show 376d084d0cd9877e56ca2011ad1af671103adb40
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show c5275664444f3e520c77be262c2e7b8a7a3a3c9b
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/Init.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/Init.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/Init.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git show 15ad372ce4f05c61bc8c9777ed3905276e1a49e1
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show c5275664444f3e520c77be262c2e7b8a7a3a3c9b
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git check-ignore -v -z --stdin
+> git show :.gitignore
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git check-ignore -v -z --stdin
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/SaisieBilletServlet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TP3-MIF03/src/main/webapp/menu.jsp
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show c5275664444f3e520c77be262c2e7b8a7a3a3c9b
+> git show HEAD:TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/BilletServlet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git check-ignore -v -z --stdin
+> git show :TP2-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 6-creer-class-groupe
+> git rev-parse --symbolic-full-name 6-creer-class-groupe@{u}
+> git rev-list --left-right 6-creer-class-groupe...refs/remotes/origin/6-creer-class-groupe
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+fatal: ref HEAD is not a symbolic ref
+> git rev-parse HEAD
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+fatal: ref HEAD is not a symbolic ref
+> git rev-parse HEAD
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/master', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/master'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/shengchen.vscode-checkstyle-1.3.2/dist/extension.js:29:98095)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/shengchen.vscode-checkstyle-1.3.2/dist/extension.js:29:98456)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java

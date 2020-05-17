@@ -1,0 +1,30 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tblain/Document/cours/M1/multimif/m1if10
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/Connexion
+> git rev-parse --symbolic-full-name feature/Connexion@{u}
+> git rev-list --left-right feature/Connexion...refs/remotes/origin/feature/Connexion
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/Connexion
+> git rev-parse --symbolic-full-name feature/Connexion@{u}
+> git rev-list --left-right feature/Connexion...refs/remotes/origin/feature/Connexion
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse feature/Connexion
+> git rev-parse --symbolic-full-name feature/Connexion@{u}
+> git rev-list --left-right feature/Connexion...refs/remotes/origin/feature/Connexion
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :webapp/src/main/java/univ/m1if10/servlet/ConnectionServlet.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/servlet/

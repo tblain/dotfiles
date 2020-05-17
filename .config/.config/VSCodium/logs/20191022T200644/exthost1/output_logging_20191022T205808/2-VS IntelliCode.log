@@ -1,0 +1,12 @@
+The configuration 'editor.suggestSelection' will be set to 'first' since the default value 'recentlyUsed' may cause you to not see IntelliCode completions.
+You can configure this behavior with the setting 'vsintellicode.modify.editor.suggestSelection'.
+The configuration 'editor.suggestSelection' has been set to 'first'.
+Acquiring model 'intellisense-members' for java
+Querying IntelliCode service for available models.
+Downloading model.
+Starting download of https://cdsmprodstg.blob.core.windows.net/models-prod-output/Output_45788CA1782FEF17F07049DB4764F5647A62_975CC5EC71E347A9B047E779B175B7D3?sv=2018-03-28&sr=b&sig=zTEGUG0aeaqULRWkcYvRWng0h7sDRHuSP6eWPOSpS7I%3D&se=2019-10-22T19%3A30%3A15Z&sp=r
+Download complete.
+vs-intellicode-java was passed a model: {"modelPath":"/home/tblain/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/cache/45788CA1782FEF17F07049DB4764F5647A62_975CC5EC71E347A9B047E779B175B7D3","modelId":"45788CA1782FEF17F07049DB4764F5647A62","outputId":"975CC5EC71E347A9B047E779B175B7D3"}.
+Java Extension is activated.
+JavaAPI: {"apiVersion":"0.2","javaRequirement":{"java_home":"/usr/lib/jvm/default","java_version":11},"status":"Started"}
+Enabled IntelliCode for Java.

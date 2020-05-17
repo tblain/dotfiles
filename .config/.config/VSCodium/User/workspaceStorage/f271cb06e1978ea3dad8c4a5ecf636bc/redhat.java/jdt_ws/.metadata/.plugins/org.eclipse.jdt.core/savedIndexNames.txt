@@ -1,0 +1,14 @@
+INDEX VERSION 1.131+/home/tblain/.config/VSCodium/User/workspaceStorage/f271cb06e1978ea3dad8c4a5ecf636bc/redhat.java/jdt_ws/.metadata/.plugins/org.eclipse.jdt.core
+2745872313.index
+418782729.index
+1829079182.index
+3354214566.index
+830643909.index
+3084082082.index
+436385816.index
+3330342858.index
+3842426239.index
+202000794.index
+312257639.index
+65540466.index
+1856823041.index

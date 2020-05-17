@@ -1,0 +1,4 @@
+Acquiring model 'intellisense-members' for java
+Querying IntelliCode service for available models.
+Cached model is up to date.
+vs-intellicode-java was passed a model: {"modelPath":"/home/tblain/.vscode-oss/extensions/visualstudioexptteam.vscodeintellicode-1.2.0/cache/45788CA1782FEF17F07049DB4764F5647A62_975CC5EC71E347A9B047E779B175B7D3","modelId":"45788CA1782FEF17F07049DB4764F5647A62","outputId":"975CC5EC71E347A9B047E779B175B7D3"}.

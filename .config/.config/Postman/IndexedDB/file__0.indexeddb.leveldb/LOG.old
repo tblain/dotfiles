@@ -1,0 +1,18 @@
+2019/12/22-13:40:07.687 72418 Reusing MANIFEST /home/tblain/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2019/12/22-13:40:07.687 72418 Recovering log #99
+2019/12/22-13:40:07.687 72418 Reusing old log /home/tblain/.config/Postman/IndexedDB/file__0.indexeddb.leveldb/000099.log 
+2019/12/22-13:40:37.174 72640 Current memtable full; waiting...
+2019/12/22-13:40:37.174 71941 Level-0 table #104: started
+2019/12/22-13:40:37.182 71941 Level-0 table #104: 2496 bytes OK
+2019/12/22-13:40:37.188 71941 Delete type=0 #99
+2019/12/22-13:40:37.189 71941 Level-0 table #106: started
+2019/12/22-13:40:37.189 71941 Level-0 table #106: 0 bytes OK
+2019/12/22-13:40:37.195 71941 Delete type=0 #103
+2019/12/22-13:40:37.195 71941 Manual compaction at level-0 from '\x00\x14\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at '\x00\x14\x00\x00\x05' @ 15575 : 1
+2019/12/22-13:40:37.195 71941 Compacting 1@0 + 1@1 files
+2019/12/22-13:40:37.231 71941 Generated table #107@0: 3891 keys, 316117 bytes
+2019/12/22-13:40:37.233 71941 Compacted 1@0 + 1@1 files => 316117 bytes
+2019/12/22-13:40:37.240 71941 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/12/22-13:40:37.241 71941 Delete type=2 #104
+2019/12/22-13:40:37.241 71941 Delete type=2 #101
+2019/12/22-13:40:37.241 71941 Manual compaction at level-0 from '\x00\x14\x00\x00\x05' @ 15575 : 1 .. '\x00\x15\x00\x00\x00' @ 0 : 0; will stop at (end)

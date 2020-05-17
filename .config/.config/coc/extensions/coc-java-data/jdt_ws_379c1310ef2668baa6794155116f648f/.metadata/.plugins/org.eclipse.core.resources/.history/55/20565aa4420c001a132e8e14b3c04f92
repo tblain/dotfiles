@@ -1,0 +1,54 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package univ.m1if10.DAO;
+
+import java.util.Collection;
+import javax.persistence.EntityManager;
+import javax.persistence.TypedQuery;
+import univ.m1if10.classes.Choix;
+import univ.m1if10.classes.Question;
+
+/**
+ *
+ * @author imran
+ */
+public class ChoixDAO {
+    
+    private final EntityManager em;
+
+    public ChoixDAO(EntityManager em) {
+        this.em = em;
+    }
+    
+    public Choix getChoix(int id_question){
+        
+        TypedQuery<Choix> q =
+                em.createQuery("SELECT c FROM Choix c WHERE c.id_question = ?1",Choix.class);
+        q.setParameter(1, id_question);
+         Collection<Choix> results = q.getResultList();
+        if (results.size() > 0) {
+            return results.iterator().next();
+        } else {
+            return null;
+        }
+    }
+    
+    public Choix create(boolean juste, String contenue, Question question){
+        em.getTransaction().begin();
+
+        Choix choix = new Choix();
+	choix.setJustes(juste);
+	choix.setContenu(contenue);
+	choix.setQuestion(question);
+	question.getListChoix().add(choix);
+
+	em.persist(choix);
+
+        em.getTransaction().commit();
+
+        return choix;
+    }
+}

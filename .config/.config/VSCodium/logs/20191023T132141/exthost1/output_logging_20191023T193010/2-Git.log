@@ -1,0 +1,525 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tblain/Document/cours/M1/web/conception_web
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/GestionBillets.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Billet.java
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse dev
+> git rev-parse --symbolic-full-name dev@{u}
+> git rev-list --left-right dev...refs/remotes/origin/dev
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+Failed to watch ref '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev', is most likely packed.
+Error: ENOENT: no such file or directory, watch '/home/tblain/Document/cours/M1/web/conception_web/.git/refs/remotes/origin/dev'
+	at FSWatcher.start (internal/fs/watchers.js:164:26)
+	at Object.watch (fs.js:1232:11)
+	at Object.t (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:185768)
+	at Object.watch (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:186129)
+	at Object.t.watch (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:594401)
+	at T.updateTransientWatchers (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:98291)
+	at l.fire (/usr/share/vscodium-bin/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:50:539)
+	at k.updateModelState (/usr/share/vscodium-bin/resources/app/extensions/git/dist/main.js:1:115979)

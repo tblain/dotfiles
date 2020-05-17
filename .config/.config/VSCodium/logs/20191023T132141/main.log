@@ -1,0 +1,10 @@
+[2019-10-23 13:21:41.446] [main] [info] update#setState idle
+[2019-10-23 13:22:11.458] [main] [info] update#setState checking for updates
+[2019-10-23 13:22:11.992] [main] [info] update#setState idle
+[2019-10-23 14:22:11.462] [main] [info] update#setState checking for updates
+[2019-10-23 14:22:12.241] [main] [info] update#setState idle
+[2019-10-23 18:04:33.919] [main] [info] update#setState checking for updates
+[2019-10-23 18:04:53.948] [main] [error] Error: net::ERR_NAME_RESOLUTION_FAILED
+[2019-10-23 18:04:53.948] [main] [info] update#setState idle
+[2019-10-23 19:04:33.949] [main] [info] update#setState checking for updates
+[2019-10-23 19:04:34.536] [main] [info] update#setState idle

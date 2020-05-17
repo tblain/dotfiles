@@ -1,0 +1,7 @@
+[Error - 6:13:03 PM] Request textDocument/codeAction failed.
+Error: Connection got disposed.
+	at Object.dispose (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:72853)
+	at Object.dispose (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:121394)
+	at e.shutdown.then (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:118204)
+	at i (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:188376)
+	at /home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:188870

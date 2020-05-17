@@ -1,0 +1,26 @@
+{
+	"cmd": ["g++", "-std=c++11", "${file}", "-o", "${file_path}/a.out"],
+	"file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+	"working_dir": "${file_path}",
+	"selector": "source.c, source.cpp, source.c++",
+
+	"variants":
+	[
+		{
+			"name": "Run",
+			"cmd": ["bash", "${packages}/Competitive Programming/run.sh", "c++11", "${file_path}", "a.out"]
+		}
+	],
+
+	"windows":
+	{
+
+		"variants":
+		[
+			{
+				"name": "Run",
+				"cmd": ["${packages}\\\\Competitive Programming\\\\run.bat", "c++11", "${file_path}", "a.out"]
+			}
+		]
+	}
+}

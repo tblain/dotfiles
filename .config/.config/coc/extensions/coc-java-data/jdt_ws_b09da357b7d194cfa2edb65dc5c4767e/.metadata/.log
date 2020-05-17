@@ -1,0 +1,528 @@
+!SESSION 2020-01-10 14:11:02.220 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b09da357b7d194cfa2edb65dc5c4767e
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:07.879
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.137
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.189
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.190
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.215
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.216
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.241
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.316
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:08.559
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:12.265
+!MESSAGE Workspace initialized in 4045ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:12.401
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:12.436
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:12.566
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:12.595
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:13.429
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:13.472
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:13.473
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:13.508
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:13.552
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/BoiteParam.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:14.601
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:14.840
+!MESSAGE Reconciled 0. Took 249 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:14.846
+!MESSAGE Clearing problems for /BoiteParam.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:14.902
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:15.226
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:16.030
+!MESSAGE Reconciled 0. Took 294 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.069
+!MESSAGE begin problem for /FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.076
+!MESSAGE The serializable class FenetrePrincipale does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.077
+!MESSAGE The serializable class PanneauVisu does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.077
+!MESSAGE The serializable class PanneauGraphe does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.078
+!MESSAGE The serializable class PanneauActions does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.079
+!MESSAGE The serializable class PanneauAlgorithmes does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.079
+!MESSAGE 5 problems reported for /FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:17.086
+!MESSAGE Validated 1. Took 573 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:19.863
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:19.895
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:30.056
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:30.060
+!MESSAGE Clearing problems for /FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:30.378
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:30.406
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/GrapheFabrique.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:30.942
+!MESSAGE Reconciled 0. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:31.469
+!MESSAGE begin problem for /GrapheFabrique.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:31.470
+!MESSAGE 0 problems reported for /GrapheFabrique.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:31.470
+!MESSAGE Validated 1. Took 77 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:38.063
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:38.067
+!MESSAGE Clearing problems for /GrapheFabrique.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:40.484
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:40.497
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:40.916
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:41.416
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:41.417
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:41.425
+!MESSAGE Validated 1. Took 106 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:49.119
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:11:49.123
+!MESSAGE Clearing problems for /Java_Etu.java
+!SESSION 2020-01-10 14:22:25.627 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b09da357b7d194cfa2edb65dc5c4767e
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-01-10 14:22:27.368
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.714
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.927
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.973
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.974
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.999
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:29.999
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:30.043
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:31.892
+!MESSAGE Workspace initialized in 1887ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:31.981
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:32.006
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:32.076
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:32.088
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:33.332
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:33.339
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:33.346
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:33.350
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:33.363
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:34.077
+!MESSAGE Reconciled 0. Took 178 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:34.661
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:34.661
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:34.670
+!MESSAGE Validated 1. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:44.064
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:22:44.074
+!MESSAGE Clearing problems for /Java_Etu.java
+!SESSION 2020-01-10 14:27:25.233 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.5
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b09da357b7d194cfa2edb65dc5c4767e
+
+!ENTRY org.eclipse.core.resources 2 10035 2020-01-10 14:27:26.710
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:29.698
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.001
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.046
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.047
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.069
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.070
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:30.118
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:31.629
+!MESSAGE Workspace initialized in 1554ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:31.730
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:31.744
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:31.802
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:31.804
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:32.595
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:32.598
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:32.598
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:32.599
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:32.605
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:33.141
+!MESSAGE Reconciled 0. Took 73 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:33.854
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:33.854
+!MESSAGE 1 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:33.886
+!MESSAGE Validated 1. Took 294 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:36.153
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:36.202
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=ignore}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:51.746
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:51.821
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:52.224
+!MESSAGE Reconciled 0. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:52.385
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:52.768
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:52.769
+!MESSAGE 1 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:52.770
+!MESSAGE Validated 1. Took 145 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:53.997
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:54.546
+!MESSAGE Reconciled 0. Took 92 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:55.178
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:55.178
+!MESSAGE 1 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:55.179
+!MESSAGE Validated 1. Took 230 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:56.373
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:27:56.407
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:00.582
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.094
+!MESSAGE Reconciled 0. Took 57 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.603
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.614
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.784
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.787
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:01.790
+!MESSAGE Validated 1. Took 244 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:41.713
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:41.789
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:42.056
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:42.143
+!MESSAGE Reconciled 0. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:42.792
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:42.793
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:42.794
+!MESSAGE Validated 1. Took 201 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:43.567
+!MESSAGE >> document/resolveCompletionItem
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:43.982
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:44.051
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:44.338
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:44.399
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:44.470
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:44.816
+!MESSAGE Reconciled 0. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:45.466
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:45.519
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:45.520
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:45.522
+!MESSAGE Validated 1. Took 261 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:45.988
+!MESSAGE Reconciled 0. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:46.344
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:46.352
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:46.608
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:46.608
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:46.610
+!MESSAGE Validated 1. Took 171 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:53.946
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:54.397
+!MESSAGE Reconciled 0. Took 45 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:54.544
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.047
+!MESSAGE Reconciled 0. Took 50 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.645
+!MESSAGE begin problem for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.645
+!MESSAGE 0 problems reported for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.647
+!MESSAGE Validated 1. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.931
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 14:28:55.934
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:07.144
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:07.151
+!MESSAGE Clearing problems for /Java_Etu.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:07.347
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:07.349
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/ero/tp1/FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:07.997
+!MESSAGE Reconciled 0. Took 147 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.040
+!MESSAGE begin problem for /FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.046
+!MESSAGE The serializable class FenetrePrincipale does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.047
+!MESSAGE The serializable class PanneauVisu does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.048
+!MESSAGE The serializable class PanneauGraphe does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.049
+!MESSAGE The serializable class PanneauActions does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.064
+!MESSAGE The serializable class PanneauAlgorithmes does not declare a static final serialVersionUID field of type long is of type MissingSerialVersion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.065
+!MESSAGE 5 problems reported for /FenetrePrincipale.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 15:13:09.066
+!MESSAGE Validated 1. Took 617 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 21:00:03.236
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2020-01-10 21:00:03.250
+!MESSAGE Clearing problems for /FenetrePrincipale.java

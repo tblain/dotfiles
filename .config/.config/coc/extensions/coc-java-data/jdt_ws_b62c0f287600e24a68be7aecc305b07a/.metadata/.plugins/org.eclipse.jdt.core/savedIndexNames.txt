@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b62c0f287600e24a68be7aecc305b07a/.metadata/.plugins/org.eclipse.jdt.core

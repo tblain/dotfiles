@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>jdt.ls-java-project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>src/mif04/gdw/tp1/dao/BilletDAO.java</name>
+			<type>1</type>
+			<location>//home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1/src/main/java/mif04/gdw/tp1/dao/BilletDAO.java</location>
+		</link>
+		<link>
+			<name>src/mif04/gdw/tp1/modele/Billet.java</name>
+			<type>1</type>
+			<location>//home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1/src/main/java/mif04/gdw/tp1/modele/Billet.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,8 @@
+{ message:
+   'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -jar /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/server/plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar -configuration /home/tblain/.vscode-oss/extensions/redhat.java-0.51.0/server/config_linux -data /home/tblain/.config/VSCodium/User/workspaceStorage/f75d79d75fa2c10b396c2958b8cc7950/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2019-10-22 23:13:43.534' }
+{ message:
+   '[Info  - 11:13:47 PM] Registered \'java.actionsOnPaste.organizeImports\' command.',
+  level: 'info',
+  timestamp: '2019-10-22 23:13:47.368' }

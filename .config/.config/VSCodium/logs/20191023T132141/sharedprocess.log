@@ -1,0 +1,14 @@
+[2019-10-23 13:21:45.298] [sharedprocess] [info] main {"machineId":"069735d40ac7d6ac7e62c12c182199d72e1838dadb060e383e95fb9849c9d0f1","windowId":2}
+[2019-10-23 13:21:47.606] [sharedprocess] [info] Installing extension: redhat.java
+[2019-10-23 13:22:25.307] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-10-23 13:22:44.363] [sharedprocess] [info] Downloaded extension: redhat.java /tmp/3d37e91c-bf49-4048-9c0a-736fdc2da27c
+[2019-10-23 13:22:45.378] [sharedprocess] [info] Extracted extension to /home/tblain/.vscode-oss/extensions/.redhat.java-0.52.0: redhat.java
+[2019-10-23 13:22:45.378] [sharedprocess] [info] Renamed to /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0
+[2019-10-23 13:22:45.380] [sharedprocess] [info] Installation completed. redhat.java
+[2019-10-23 13:22:45.408] [sharedprocess] [info] Extensions installed successfully: redhat.java
+[2019-10-23 19:03:27.226] [sharedprocess] [info] Installing extension: vscodevim.vim
+[2019-10-23 19:03:28.505] [sharedprocess] [info] Downloaded extension: vscodevim.vim /tmp/95dc3ae4-bce0-4d6f-b232-53a491017f7d
+[2019-10-23 19:03:28.999] [sharedprocess] [info] Extracted extension to /home/tblain/.vscode-oss/extensions/.vscodevim.vim-1.11.2: vscodevim.vim
+[2019-10-23 19:03:28.999] [sharedprocess] [info] Renamed to /home/tblain/.vscode-oss/extensions/vscodevim.vim-1.11.2
+[2019-10-23 19:03:29.002] [sharedprocess] [info] Installation completed. vscodevim.vim
+[2019-10-23 19:03:29.039] [sharedprocess] [info] Extensions installed successfully: vscodevim.vim

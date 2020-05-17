@@ -1,0 +1,37 @@
+[Default Applications]
+x-scheme-handler/ssh=ktelnetservice5.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/ftp=firefox.desktop
+x-scheme-handler/chrome=firefox.desktop
+text/html=firefox.desktop
+application/x-extension-htm=firefox.desktop
+application/x-extension-html=firefox.desktop
+application/x-extension-shtml=firefox.desktop
+application/xhtml+xml=firefox.desktop
+application/x-extension-xhtml=firefox.desktop
+application/x-extension-xht=firefox.desktop
+x-scheme-handler/postman=Postman.desktop
+
+[Added Associations]
+image/png=org.kde.gwenview.desktop;okularApplication_kimgio.desktop;
+image/jpeg=org.kde.gwenview.desktop;okularApplication_kimgio.desktop;
+text/plain=atom.desktop;wine-extension-txt.desktop;nvim.desktop;
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=libreoffice-writer.desktop;
+text/html=firefox.desktop;
+text/csv=libreoffice-calc.desktop;
+audio/x-vorbis+ogg=vlc.desktop;
+audio/mpeg=vlc.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
+x-scheme-handler/ftp=firefox.desktop;
+x-scheme-handler/chrome=firefox.desktop;
+application/x-extension-htm=firefox.desktop;
+application/x-extension-html=firefox.desktop;
+application/x-extension-shtml=firefox.desktop;
+application/xhtml+xml=firefox.desktop;
+application/x-extension-xhtml=firefox.desktop;
+application/x-extension-xht=firefox.desktop;
+application/x-compressed-tar=xarchiver.desktop;
+application/xml=nvim.desktop;
+application/pdf=okularApplication_pdf.desktop;

@@ -1,0 +1,1613 @@
+{
+	"folder_history":
+	[
+		"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen",
+		"/home/tblain/Document/cours/M1/ero/tp2",
+		"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret",
+		"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB",
+		"/home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1/src",
+		"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search",
+		"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote",
+		"/home/tblain/Document/cours/M1",
+		"/home/tblain/Document/projets_persos",
+		"/home/tblain/Document/projets_persos/L3_Projet",
+		"/home/tblain/Document/projets_persos/tetris_py",
+		"/home/tblain/Document/projets_persos/tetris_cpp",
+		"/home/tblain/Document/cours/L3_Projet_CPP",
+		"/home/tblain/Document/cours/algo/L3_Projet_CPP",
+		"/home/tblain/Document/cours/algo/l3_algo_projet",
+		"/home/tblain/Document/cours/algo/tp-arbretas-etu",
+		"/home/tblain/Document/cours/algo/tp-avl-etu/Code",
+		"/home/tblain/Document/cours/algo/tp-union-find-etu/Code"
+	],
+	"last_version": 3207,
+	"last_window_id": 56,
+	"log_indexing": false,
+	"settings":
+	{
+		"new_window_height": 0.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"m",
+						"I-MXBean\tinit"
+					],
+					[
+						"if",
+						"ifelse\tif(…) else"
+					],
+					[
+						"clas",
+						"classtemp\tclass_template"
+					],
+					[
+						"iost",
+						"iostream\tstandard header"
+					],
+					[
+						"for",
+						"for\tFor Loop"
+					],
+					[
+						"cla",
+						"class\tclass-..-(class)"
+					],
+					[
+						"return",
+						"register_callback\tfunc"
+					],
+					[
+						"cl",
+						"class\tclass-..-(class)"
+					],
+					[
+						"LaCLass",
+						"LaClasseSpecialisee"
+					],
+					[
+						"cast",
+						"classtemp\tclass_template"
+					],
+					[
+						"LaClass",
+						"LaClasseSpecialisee"
+					],
+					[
+						"swit",
+						"showpoint\tios"
+					],
+					[
+						"sw",
+						"swap\tfunc"
+					],
+					[
+						"cout",
+						"wcout\tiostream"
+					],
+					[
+						"ma",
+						"max-heap\tmaxHeap"
+					],
+					[
+						"sel",
+						"self.speed_left"
+					],
+					[
+						"d",
+						"getDistanceFromGround〔function〕"
+					],
+					[
+						"predi",
+						"prediction"
+					],
+					[
+						"predic",
+						"predict_input〔variable〕"
+					],
+					[
+						"pred",
+						"pred_left"
+					],
+					[
+						"spee",
+						"speed_right〔variable〕"
+					],
+					[
+						"r",
+						"robots〔variable〕"
+					],
+					[
+						"list",
+						"list_genes〔argument〕"
+					],
+					[
+						"nb",
+						"nb_children_from_cross〔argument〕"
+					],
+					[
+						"st",
+						"start_orientation〔argument〕"
+					],
+					[
+						"star",
+						"start_orientation"
+					],
+					[
+						"bo",
+						"board_max_heights〔variable〕"
+					],
+					[
+						"boar",
+						"board_max_heights〔variable〕"
+					],
+					[
+						"big",
+						"biggest_height"
+					],
+					[
+						"max",
+						"max_height〔variable〕"
+					],
+					[
+						"e_",
+						"e_state"
+					],
+					[
+						"score",
+						"score_NN〔variable〕"
+					],
+					[
+						"e",
+						"e_state"
+					],
+					[
+						"w",
+						"weights"
+					],
+					[
+						"gam",
+						"game_run〔function〕"
+					],
+					[
+						"piece",
+						"piece_number〔variable〕"
+					],
+					[
+						"piec",
+						"piece_number〔variable〕"
+					],
+					[
+						"sc",
+						"score_NN〔variable〕"
+					],
+					[
+						"eval",
+						"eval_board〔function〕"
+					],
+					[
+						"sco",
+						"score_algo〔variable〕"
+					],
+					[
+						"NN",
+						"NN_eval_board〔function〕"
+					],
+					[
+						"gen",
+						"gen_algo〔function〕"
+					],
+					[
+						"deja",
+						"dejaVu"
+					],
+					[
+						"win",
+						"winy"
+					],
+					[
+						"res",
+						"resultBFS"
+					],
+					[
+						"get",
+						"getFirstX"
+					],
+					[
+						"remp",
+						"remplis"
+					],
+					[
+						"a",
+						"affichage"
+					],
+					[
+						"prio",
+						"prio_fd"
+					],
+					[
+						"prio_",
+						"prio_fg"
+					],
+					[
+						"su",
+						"suppression_internal"
+					],
+					[
+						"vla",
+						"valeur"
+					],
+					[
+						"rech",
+						"recherche_internal"
+					],
+					[
+						"val",
+						"valeur"
+					],
+					[
+						"null",
+						"nullptr"
+					],
+					[
+						"ver",
+						"verif"
+					],
+					[
+						"verif",
+						"verif_prio"
+					],
+					[
+						"pri",
+						"prio_g"
+					],
+					[
+						"droit",
+						"droite"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"si",
+						"size"
+					],
+					[
+						"ajout",
+						"ajoutVu"
+					],
+					[
+						"tru",
+						"trouve"
+					],
+					[
+						"tab",
+						"tab_mur"
+					],
+					[
+						"en",
+						"ensembles"
+					],
+					[
+						"root",
+						"root2"
+					],
+					[
+						"roo",
+						"root1"
+					],
+					[
+						"indice",
+						"indice1"
+					],
+					[
+						"whi",
+						"whidth"
+					],
+					[
+						"rand",
+						"rand_piece"
+					],
+					[
+						"pi",
+						"piece_fun"
+					],
+					[
+						"Pie",
+						"PieceT"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"Pi",
+						"PieceZ"
+					],
+					[
+						"le",
+						"length"
+					]
+				]
+			},
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Competitive Programming/Test C++.sublime-build",
+							""
+						],
+						[
+							"Packages/Competitive Programming/Test C++.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"valgr",
+						"Set Syntax: Valgrind"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"run",
+						"Build With: C++ Single File - Run"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 178.305267334,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": true,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if0-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test05-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test05.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test00.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/Makefile",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex6.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex5.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex4.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex3.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex2.txt",
+				"/home/tblain/.config/termite/config",
+				"/home/tblain/Document/cours/M1/bd/tp2/forets-sql-xml-correction.sql",
+				"/home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1/src/main/java/mif04/gdw/tp1/dao/CategorieDAO.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/StrategieMeanSup.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/StrategieAllSup.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Strategie.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/ApplicantList.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Applicant.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/view/JfxView.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Model.java",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/tp2.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/tp.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/readme.md",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP4/tp.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP4/main.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tableau_avec_iterateur.hpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/expression_binaire_with_deplacement_et_constructeur_copie.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP1/LaClasse.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP3/main.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp1.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp2.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp3.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp4.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP1/pixel.cpp",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/App.java",
+				"/home/tblain/Document/projets_persos/neural_network/rnn.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/networkGen.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/main.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/env.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/gen_algo.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/genetic.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/Robot.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/balance.urdf",
+				"/home/tblain/Document/projets_persos/L3_Projet/testPyBullet.py",
+				"/home/tblain/Document/projets_persos/tetris_py/bot.py",
+				"/home/tblain/Document/projets_persos/tetris_py/utils.py",
+				"/home/tblain/Document/projets_persos/tetris_py/neural_network.py",
+				"/home/tblain/Document/projets_persos/tetris_py/rl.py",
+				"/home/tblain/Document/projets_persos/tetris_py/state.py",
+				"/home/tblain/Document/projets_persos/tetris_py/main.py",
+				"/home/tblain/Document/projets_persos/tetris_py/piece.py",
+				"/home/tblain/Document/projets_persos/tetris_py/agent.py",
+				"/home/tblain/Document/projets_persos/tetris_py/tetris.py",
+				"/home/tblain/Document/projets_persos/tetris_py/gen_algo.py",
+				"/home/tblain/Document/projets_persos/tetris_py/genetic.py",
+				"/home/tblain/Document/projets_persos/tetris_cpp/tetris.cpp",
+				"/home/tblain/Document/cours/L3_Projet_CPP/Jeu.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/mapacreer.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map6.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map5.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map4.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Jeu.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board_creator.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board_creator.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Makefile",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Jeu.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Move.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/arbre.cpp",
+				"/home/tblain/Document/cours/algo/tp-arbretas-etu/Code/noeud.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Move.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main2.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main2",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/arbre.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/noeud.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/noeud.cpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/main.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/labyrinthe.hpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/labyrinthe.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/test_labyrinthe.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/test_labyrinthe",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/tree.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/tree.hpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/union_find.hpp",
+				"/home/tblain/Document/cours/algo/l3_algo_projet/main.cpp",
+				"/home/tblain/Document/cours/algo/l3_algo_complexite/Src/liste.cpp",
+				"/home/tblain/Document/cours/algo/l3_algo_projet/main.hpp",
+				"/home/tblain/Document/cours/algo/l3_algo_complexite/Src/cellule.cpp",
+				"/home/tblain/Document/projets_persos/particle_life_py/particle_life.py",
+				"/home/tblain/.config/polybar/launch.sh",
+				"/home/tblain/.config/polybar/polybar.conf",
+				"/home/tblain/.config/i3/config",
+				"/home/tblain/Document/trip",
+				"/home/tblain/Document/projet/reunion",
+				"/home/tblain/.config/polybar/config"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 107.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					");\n",
+					"println_int"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 48.0
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 142.113296509
+			},
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 538.0
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 259.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			}
+		},
+		"new_window_width": 0.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"m",
+						"I-MXBean\tinit"
+					],
+					[
+						"if",
+						"ifelse\tif(…) else"
+					],
+					[
+						"clas",
+						"classtemp\tclass_template"
+					],
+					[
+						"iost",
+						"iostream\tstandard header"
+					],
+					[
+						"for",
+						"for\tFor Loop"
+					],
+					[
+						"cla",
+						"class\tclass-..-(class)"
+					],
+					[
+						"return",
+						"register_callback\tfunc"
+					],
+					[
+						"cl",
+						"class\tclass-..-(class)"
+					],
+					[
+						"LaCLass",
+						"LaClasseSpecialisee"
+					],
+					[
+						"cast",
+						"classtemp\tclass_template"
+					],
+					[
+						"LaClass",
+						"LaClasseSpecialisee"
+					],
+					[
+						"swit",
+						"showpoint\tios"
+					],
+					[
+						"sw",
+						"swap\tfunc"
+					],
+					[
+						"cout",
+						"wcout\tiostream"
+					],
+					[
+						"ma",
+						"max-heap\tmaxHeap"
+					],
+					[
+						"sel",
+						"self.speed_left"
+					],
+					[
+						"d",
+						"getDistanceFromGround〔function〕"
+					],
+					[
+						"predi",
+						"prediction"
+					],
+					[
+						"predic",
+						"predict_input〔variable〕"
+					],
+					[
+						"pred",
+						"pred_left"
+					],
+					[
+						"spee",
+						"speed_right〔variable〕"
+					],
+					[
+						"r",
+						"robots〔variable〕"
+					],
+					[
+						"list",
+						"list_genes〔argument〕"
+					],
+					[
+						"nb",
+						"nb_children_from_cross〔argument〕"
+					],
+					[
+						"st",
+						"start_orientation〔argument〕"
+					],
+					[
+						"star",
+						"start_orientation"
+					],
+					[
+						"bo",
+						"board_max_heights〔variable〕"
+					],
+					[
+						"boar",
+						"board_max_heights〔variable〕"
+					],
+					[
+						"big",
+						"biggest_height"
+					],
+					[
+						"max",
+						"max_height〔variable〕"
+					],
+					[
+						"e_",
+						"e_state"
+					],
+					[
+						"score",
+						"score_NN〔variable〕"
+					],
+					[
+						"e",
+						"e_state"
+					],
+					[
+						"w",
+						"weights"
+					],
+					[
+						"gam",
+						"game_run〔function〕"
+					],
+					[
+						"piece",
+						"piece_number〔variable〕"
+					],
+					[
+						"piec",
+						"piece_number〔variable〕"
+					],
+					[
+						"sc",
+						"score_NN〔variable〕"
+					],
+					[
+						"eval",
+						"eval_board〔function〕"
+					],
+					[
+						"sco",
+						"score_algo〔variable〕"
+					],
+					[
+						"NN",
+						"NN_eval_board〔function〕"
+					],
+					[
+						"gen",
+						"gen_algo〔function〕"
+					],
+					[
+						"deja",
+						"dejaVu"
+					],
+					[
+						"win",
+						"winy"
+					],
+					[
+						"res",
+						"resultBFS"
+					],
+					[
+						"get",
+						"getFirstX"
+					],
+					[
+						"remp",
+						"remplis"
+					],
+					[
+						"a",
+						"affichage"
+					],
+					[
+						"prio",
+						"prio_fd"
+					],
+					[
+						"prio_",
+						"prio_fg"
+					],
+					[
+						"su",
+						"suppression_internal"
+					],
+					[
+						"vla",
+						"valeur"
+					],
+					[
+						"rech",
+						"recherche_internal"
+					],
+					[
+						"val",
+						"valeur"
+					],
+					[
+						"null",
+						"nullptr"
+					],
+					[
+						"ver",
+						"verif"
+					],
+					[
+						"verif",
+						"verif_prio"
+					],
+					[
+						"pri",
+						"prio_g"
+					],
+					[
+						"droit",
+						"droite"
+					],
+					[
+						"re",
+						"result"
+					],
+					[
+						"si",
+						"size"
+					],
+					[
+						"ajout",
+						"ajoutVu"
+					],
+					[
+						"tru",
+						"trouve"
+					],
+					[
+						"tab",
+						"tab_mur"
+					],
+					[
+						"en",
+						"ensembles"
+					],
+					[
+						"root",
+						"root2"
+					],
+					[
+						"roo",
+						"root1"
+					],
+					[
+						"indice",
+						"indice1"
+					],
+					[
+						"whi",
+						"whidth"
+					],
+					[
+						"rand",
+						"rand_piece"
+					],
+					[
+						"pi",
+						"piece_fun"
+					],
+					[
+						"Pie",
+						"PieceT"
+					],
+					[
+						"ro",
+						"rotate"
+					],
+					[
+						"Pi",
+						"PieceZ"
+					],
+					[
+						"le",
+						"length"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/mine/test_unary0.c",
+					"settings":
+					{
+						"buffer_size": 202,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							""
+						],
+						[
+							"Packages/C++/C++ Single File.sublime-build",
+							"Run"
+						],
+						[
+							"Packages/Competitive Programming/Test C++.sublime-build",
+							""
+						],
+						[
+							"Packages/Competitive Programming/Test C++.sublime-build",
+							"Run"
+						]
+					],
+					[
+						"Packages/C++/C++ Single File.sublime-build",
+						"Run"
+					]
+				],
+				[
+					[
+						[
+							"Packages/Java/Ant.sublime-build",
+							""
+						],
+						[
+							"Packages/Java/JavaC.sublime-build",
+							""
+						]
+					],
+					[
+						"Packages/Java/JavaC.sublime-build",
+						""
+					]
+				]
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+					[
+						"list",
+						"Package Control: List Packages"
+					],
+					[
+						"inst",
+						"Package Control: Install Package"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"pack",
+						"Package Control: List Packages"
+					],
+					[
+						"valgr",
+						"Set Syntax: Valgrind"
+					],
+					[
+						"re",
+						"Package Control: Remove Package"
+					],
+					[
+						"run",
+						"Build With: C++ Single File - Run"
+					],
+					[
+						"in",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"ins",
+						"Package Control: Install Package"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"remov",
+						"Package Control: Remove Package"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					]
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 178.305267334,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": true,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"expanded_folders":
+			[
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2"
+			],
+			"file_history":
+			[
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test01-all_in_mem.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test01.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test00d.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test00b-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test05-all_in_mem.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test02-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test05.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if3-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_or3.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_or0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_or2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_or1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_not1-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_not1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_not0-all_in_mem.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_not0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_div1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test00.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test00.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step1/test00b.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test02.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if2-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test04.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if0-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if_nested0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if_nested1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if_nested12.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if_nested2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_if3.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_mult0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_mult1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_div0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_mod1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test_mod0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/step2/test05-naive.s",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test_bad_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/test00.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if2.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if0.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/TP03/MiniC-type-interpret/ex/good_if1.c",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/Makefile",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex6.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex5.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex4.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex3.txt",
+				"/home/tblain/Document/cours/M1/compil/mif08-labs19/CC2/CC2-TPB/testfiles/ex2.txt",
+				"/home/tblain/.config/termite/config",
+				"/home/tblain/Document/cours/M1/bd/tp2/forets-sql-xml-correction.sql",
+				"/home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1/src/main/java/mif04/gdw/tp1/dao/CategorieDAO.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/StrategieMeanSup.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/StrategieAllSup.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Strategie.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/ApplicantList.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Applicant.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/view/JfxView.java",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/model/Model.java",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/tp2.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/tp.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/tpnote/readme.md",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP4/tp.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP4/main.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tableau_avec_iterateur.hpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/expression_binaire_with_deplacement_et_constructeur_copie.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP1/LaClasse.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP3/main.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp1.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp2.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp3.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/rev/tp4.cpp",
+				"/home/tblain/Document/cours/M1/M1ProgAvance/TP1/pixel.cpp",
+				"/home/tblain/Document/cours/M1/GL/m1if01-2019/cv-search/src/main/java/fr/univ_lyon1/info/m1/cv_search/App.java",
+				"/home/tblain/Document/projets_persos/neural_network/rnn.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/networkGen.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/main.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/env.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/gen_algo.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/genetic.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/Robot.py",
+				"/home/tblain/Document/projets_persos/L3_Projet/balance.urdf",
+				"/home/tblain/Document/projets_persos/L3_Projet/testPyBullet.py",
+				"/home/tblain/Document/projets_persos/tetris_py/bot.py",
+				"/home/tblain/Document/projets_persos/tetris_py/utils.py",
+				"/home/tblain/Document/projets_persos/tetris_py/neural_network.py",
+				"/home/tblain/Document/projets_persos/tetris_py/rl.py",
+				"/home/tblain/Document/projets_persos/tetris_py/state.py",
+				"/home/tblain/Document/projets_persos/tetris_py/main.py",
+				"/home/tblain/Document/projets_persos/tetris_py/piece.py",
+				"/home/tblain/Document/projets_persos/tetris_py/agent.py",
+				"/home/tblain/Document/projets_persos/tetris_py/tetris.py",
+				"/home/tblain/Document/projets_persos/tetris_py/gen_algo.py",
+				"/home/tblain/Document/projets_persos/tetris_py/genetic.py",
+				"/home/tblain/Document/projets_persos/tetris_cpp/tetris.cpp",
+				"/home/tblain/Document/cours/L3_Projet_CPP/Jeu.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/mapacreer.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map6.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map5.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/map4.txt",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Jeu.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board_creator.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board_creator.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Makefile",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Jeu.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Move.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Board.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/arbre.cpp",
+				"/home/tblain/Document/cours/algo/tp-arbretas-etu/Code/noeud.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/Move.hpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main2.cpp",
+				"/home/tblain/Document/cours/algo/L3_Projet_CPP/main2",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/arbre.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/noeud.hpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/noeud.cpp",
+				"/home/tblain/Document/cours/algo/tp-avl-etu/Code/main.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/labyrinthe.hpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/labyrinthe.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/test_labyrinthe.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/test_labyrinthe",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/tree.cpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/tree.hpp",
+				"/home/tblain/Document/cours/algo/tp-union-find-etu/Code/union_find.hpp",
+				"/home/tblain/Document/cours/algo/l3_algo_projet/main.cpp"
+			],
+			"find":
+			{
+				"height": 29.0
+			},
+			"find_in_files":
+			{
+				"height": 107.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					");\n",
+					"println_int"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"folders":
+			[
+				{
+					"path": "/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen"
+				}
+			],
+			"groups":
+			[
+				{
+					"selected": 0,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "/home/tblain/Document/cours/M1/compil/mif08-labs19/TP04/MiniC-codegen/tests/mine/test_unary0.c",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 202,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										190,
+										190
+									]
+								],
+								"settings":
+								{
+									"SL.67.region_keys":
+									[
+										"sublime_linter.protected_regions"
+									],
+									"bracket_highlighter.busy": false,
+									"bracket_highlighter.clone": -1,
+									"bracket_highlighter.clone_locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.clone_regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"bracket_highlighter.locations":
+									{
+										"close":
+										{
+										},
+										"icon":
+										{
+										},
+										"open":
+										{
+										},
+										"unmatched":
+										{
+										}
+									},
+									"bracket_highlighter.regions":
+									[
+										"bh_tag",
+										"bh_tag_center",
+										"bh_tag_open",
+										"bh_tag_close",
+										"bh_tag_content",
+										"bh_double_quote",
+										"bh_double_quote_center",
+										"bh_double_quote_open",
+										"bh_double_quote_close",
+										"bh_double_quote_content",
+										"bh_default",
+										"bh_default_center",
+										"bh_default_open",
+										"bh_default_close",
+										"bh_default_content",
+										"bh_curly",
+										"bh_curly_center",
+										"bh_curly_open",
+										"bh_curly_close",
+										"bh_curly_content",
+										"bh_single_quote",
+										"bh_single_quote_center",
+										"bh_single_quote_open",
+										"bh_single_quote_close",
+										"bh_single_quote_content",
+										"bh_regex",
+										"bh_regex_center",
+										"bh_regex_open",
+										"bh_regex_close",
+										"bh_regex_content",
+										"bh_c_define",
+										"bh_c_define_center",
+										"bh_c_define_open",
+										"bh_c_define_close",
+										"bh_c_define_content",
+										"bh_round",
+										"bh_round_center",
+										"bh_round_open",
+										"bh_round_close",
+										"bh_round_content",
+										"bh_unmatched",
+										"bh_unmatched_center",
+										"bh_unmatched_open",
+										"bh_unmatched_close",
+										"bh_unmatched_content",
+										"bh_angle",
+										"bh_angle_center",
+										"bh_angle_open",
+										"bh_angle_close",
+										"bh_angle_content",
+										"bh_square",
+										"bh_square_center",
+										"bh_square_open",
+										"bh_square_close",
+										"bh_square_content"
+									],
+									"git_gutter_is_enabled": true,
+									"syntax": "Packages/C Improved/C Improved.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 29.0
+			},
+			"input":
+			{
+				"height": 48.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.SublimeLinter":
+			{
+				"height": 142.113296509
+			},
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"output.mdpopups":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,0,43,1920,1080,1920,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 54.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 392.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 538.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": true,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 259.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 50,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}

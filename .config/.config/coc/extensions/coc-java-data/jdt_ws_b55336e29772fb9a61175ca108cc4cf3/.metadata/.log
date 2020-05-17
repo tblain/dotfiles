@@ -1,0 +1,462 @@
+!SESSION 2019-10-12 23:20:53.512 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b55336e29772fb9a61175ca108cc4cf3
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.119
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.303
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.339
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.340
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.363
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.363
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.398
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.465
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:56.633
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:20:57.686
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.194
+!MESSAGE Workspace initialized in 4827ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.491
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.512
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.549
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.550
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:01.988
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:02.219
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:04.679
+!MESSAGE Reconciled 0. Took 708 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.403
+!MESSAGE begin problem for /BilletDAO.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.412
+!MESSAGE 0 problems reported for /BilletDAO.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.423
+!MESSAGE Validated 1. Took 718 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.461
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.534
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.537
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:05.546
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.728
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.825
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.828
+!MESSAGE >> java/didChangeWorkspaceFolders
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.834
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.835
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.854
+!MESSAGE Updated workspace folders in 27 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.869
+!MESSAGE Projects:
+jdt.ls-java-project: /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b55336e29772fb9a61175ca108cc4cf3/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+tp-orm: /home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1
+  resolved classpath:
+  /tp-orm/src/main/java
+  /tp-orm/src/main/resources
+  /tp-orm/src/test/java
+  org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+  org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER
+    /home/tblain/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar
+    /home/tblain/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+    /home/tblain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+    /home/tblain/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar
+    /home/tblain/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar
+    /home/tblain/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar
+    /home/tblain/.m2/repository/org/hibernate/hibernate-entitymanager/5.2.2.Final/hibernate-entitymanager-5.2.2.Final.jar
+    /home/tblain/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar
+    /home/tblain/.m2/repository/org/hibernate/hibernate-core/5.2.2.Final/hibernate-core-5.2.2.Final.jar
+    /home/tblain/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+    /home/tblain/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+    /home/tblain/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar
+    /home/tblain/.m2/repository/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar
+    /home/tblain/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar
+    /home/tblain/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+    /home/tblain/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+    /home/tblain/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+    /home/tblain/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+    /home/tblain/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+    /home/tblain/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+    /home/tblain/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+    /home/tblain/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+    /home/tblain/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar
+    /home/tblain/.m2/repository/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-server/9.3.12.v20160915/jetty-server-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-http/9.3.12.v20160915/jetty-http-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-util/9.3.12.v20160915/jetty-util-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-io/9.3.12.v20160915/jetty-io-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.12.v20160915/jetty-servlet-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-security/9.3.12.v20160915/jetty-security-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/com/github/spullara/mustache/java/compiler/0.9.2/compiler-0.9.2.jar
+    /home/tblain/.m2/repository/junit/junit/4.12/junit-4.12.jar
+    /home/tblain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  /tp-orm/target/generated-sources/annotations
+  /tp-orm/target/generated-test-sources/test-annotations
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.889
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.899
+!MESSAGE Updated workspace folders in 14 ms: Added 1 folder(s), removed0 folders.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:32.910
+!MESSAGE Projects:
+jdt.ls-java-project: /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_b55336e29772fb9a61175ca108cc4cf3/jdt.ls-java-project
+  resolved classpath:
+  /jdt.ls-java-project/src
+  org.eclipse.jdt.launching.JRE_CONTAINER
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+tp-orm: /home/tblain/Document/cours/M1/bd/correction_tp1/correction-tp1/tp1
+  resolved classpath:
+  /tp-orm/src/main/java
+  /tp-orm/src/main/resources
+  /tp-orm/src/test/java
+  org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+    /usr/lib/jvm/java-11-openjdk/lib/jrt-fs.jar
+  org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER
+    /home/tblain/.m2/repository/javax/javaee-api/7.0/javaee-api-7.0.jar
+    /home/tblain/.m2/repository/com/sun/mail/javax.mail/1.5.0/javax.mail-1.5.0.jar
+    /home/tblain/.m2/repository/javax/activation/activation/1.1/activation-1.1.jar
+    /home/tblain/.m2/repository/ch/qos/logback/logback-classic/1.1.2/logback-classic-1.1.2.jar
+    /home/tblain/.m2/repository/ch/qos/logback/logback-core/1.1.2/logback-core-1.1.2.jar
+    /home/tblain/.m2/repository/org/slf4j/slf4j-api/1.7.6/slf4j-api-1.7.6.jar
+    /home/tblain/.m2/repository/org/hibernate/hibernate-entitymanager/5.2.2.Final/hibernate-entitymanager-5.2.2.Final.jar
+    /home/tblain/.m2/repository/org/jboss/logging/jboss-logging/3.3.0.Final/jboss-logging-3.3.0.Final.jar
+    /home/tblain/.m2/repository/org/hibernate/hibernate-core/5.2.2.Final/hibernate-core-5.2.2.Final.jar
+    /home/tblain/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar
+    /home/tblain/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar
+    /home/tblain/.m2/repository/com/fasterxml/classmate/1.3.0/classmate-1.3.0.jar
+    /home/tblain/.m2/repository/javax/enterprise/cdi-api/1.1/cdi-api-1.1.jar
+    /home/tblain/.m2/repository/javax/el/el-api/2.2/el-api-2.2.jar
+    /home/tblain/.m2/repository/org/jboss/spec/javax/interceptor/jboss-interceptors-api_1.1_spec/1.0.0.Beta1/jboss-interceptors-api_1.1_spec-1.0.0.Beta1.jar
+    /home/tblain/.m2/repository/javax/annotation/jsr250-api/1.0/jsr250-api-1.0.jar
+    /home/tblain/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar
+    /home/tblain/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar
+    /home/tblain/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar
+    /home/tblain/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar
+    /home/tblain/.m2/repository/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+    /home/tblain/.m2/repository/org/apache/geronimo/specs/geronimo-jta_1.1_spec/1.1.1/geronimo-jta_1.1_spec-1.1.1.jar
+    /home/tblain/.m2/repository/com/h2database/h2/1.4.196/h2-1.4.196.jar
+    /home/tblain/.m2/repository/org/postgresql/postgresql/42.2.8/postgresql-42.2.8.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-server/9.3.12.v20160915/jetty-server-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-http/9.3.12.v20160915/jetty-http-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-util/9.3.12.v20160915/jetty-util-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-io/9.3.12.v20160915/jetty-io-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-servlet/9.3.12.v20160915/jetty-servlet-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/org/eclipse/jetty/jetty-security/9.3.12.v20160915/jetty-security-9.3.12.v20160915.jar
+    /home/tblain/.m2/repository/com/github/spullara/mustache/java/compiler/0.9.2/compiler-0.9.2.jar
+    /home/tblain/.m2/repository/junit/junit/4.12/junit-4.12.jar
+    /home/tblain/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar
+  /tp-orm/target/generated-sources/annotations
+  /tp-orm/target/generated-test-sources/test-annotations
+Java Runtimes:
+  default: /usr/lib/jvm/java-11-openjdk  CDC 1.0, Foundation 1.0: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.0: /usr/lib/jvm/java-11-openjdk
+  CDC 1.1, Foundation 1.1: /usr/lib/jvm/java-11-openjdk
+  Java Runtime Environment 1.1: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.1: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.2: /usr/lib/jvm/java-11-openjdk
+  Minimum environment to run the OSGi framework 1.2: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.3: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 1.4: /usr/lib/jvm/java-11-openjdk
+  Java 2 Platform, Standard Edition 5.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 6.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 7.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 8.0: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 9: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 10: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 11: /usr/lib/jvm/java-11-openjdk
+  Java Platform, Standard Edition 12: -
+  Java Platform, Standard Edition 13: -
+
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.004
+!MESSAGE Reconciled 0. Took 81 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.190
+!MESSAGE begin problem for /BlogServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.190
+!MESSAGE 2 problems reported for /BlogServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.191
+!MESSAGE Validated 1. Took 178 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.218
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:33.230
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-12 23:21:37.663
+!MESSAGE >> document/didClose

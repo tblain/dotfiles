@@ -1,0 +1,3 @@
+[filesystem "tblain-laptop|Oracle Corporation|1.8.0_232|/dev/sda4"]
+	timestampResolution = 1001 microseconds
+	minRacyThreshold = 3021 microseconds

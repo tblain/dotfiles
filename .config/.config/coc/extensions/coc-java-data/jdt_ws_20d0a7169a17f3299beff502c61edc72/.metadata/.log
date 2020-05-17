@@ -1,0 +1,699 @@
+!SESSION 2019-10-17 18:11:44.473 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_20d0a7169a17f3299beff502c61edc72
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:51.912
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.742
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.782
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.784
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.806
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.807
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:52.828
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:53.078
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:53.534
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:11:55.488
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:03.081
+!MESSAGE Workspace initialized in 10270ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:03.617
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:03.678
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:03.745
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:03.750
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:07.791
+!MESSAGE Reconciled 0. Took 449 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.438
+!MESSAGE begin problem for /Billet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.439
+!MESSAGE 0 problems reported for /Billet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.454
+!MESSAGE Validated 1. Took 1202 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.554
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.850
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.854
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:12:09.858
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:16:28.380
+!MESSAGE >> document/didClose
+!SESSION 2019-10-17 18:18:01.765 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_20d0a7169a17f3299beff502c61edc72
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-17 18:18:03.329
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:05.977
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.236
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.275
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.277
+!MESSAGE Initializing Java Language Server 0.44.0.201909302154
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.309
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.309
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:06.358
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:07.944
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:08.036
+!MESSAGE Workspace initialized in 1722ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:08.077
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:08.089
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:08.131
+!MESSAGE >>New configuration: {java={jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive}, trace={server=off}, import={gradle={enabled=true, wrapper={enabled=true}}, maven={enabled=true}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, comments={enabled=true}, onType={enabled=true, fixComment={enabled=true}}}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], importOrder=[java, javax, com, org]}, progressReports={enabled=true}, foldingRange={enabled=true}, maven={downloadSources=false}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:08.142
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:09.537
+!MESSAGE Reconciled 0. Took 383 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.563
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.564
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.589
+!MESSAGE Validated 1. Took 598 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.848
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.901
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.903
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:10.906
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:40.861
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:41.044
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:41.532
+!MESSAGE Reconciled 0. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:42.047
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:42.047
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:42.049
+!MESSAGE Validated 1. Took 68 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:52.442
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:52.600
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:53.101
+!MESSAGE Reconciled 0. Took 87 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:53.661
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:53.662
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:18:53.665
+!MESSAGE Validated 1. Took 162 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:01.047
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:01.200
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:01.769
+!MESSAGE Reconciled 0. Took 109 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:02.326
+!MESSAGE begin problem for /GestionBillets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:02.326
+!MESSAGE 2 problems reported for /GestionBillets.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:02.327
+!MESSAGE Validated 1. Took 108 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:37.202
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:37.316
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:37.789
+!MESSAGE Reconciled 0. Took 63 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:38.333
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:38.334
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:19:38.335
+!MESSAGE Validated 1. Took 95 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:23:09.921
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:23:09.954
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:25:36.840
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:29:15.233
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:29:15.760
+!MESSAGE Reconciled 0. Took 70 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:29:16.286
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:29:16.286
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:29:16.290
+!MESSAGE Validated 1. Took 79 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:32:00.195
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:37:56.394
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:37:56.907
+!MESSAGE Reconciled 0. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:37:57.440
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:37:57.441
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:37:57.443
+!MESSAGE Validated 1. Took 84 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:38.672
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:38.850
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:39.362
+!MESSAGE Reconciled 0. Took 54 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:39.896
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:39.897
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:38:39.898
+!MESSAGE Validated 1. Took 85 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:19.355
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:19.539
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:20.044
+!MESSAGE Reconciled 0. Took 46 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:20.530
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:20.531
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:20.532
+!MESSAGE Validated 1. Took 85 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:35.134
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:42.849
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:43.298
+!MESSAGE Reconciled 0. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:43.825
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:43.826
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:43.828
+!MESSAGE Validated 1. Took 78 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:44.849
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:45.382
+!MESSAGE Reconciled 0. Took 67 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:45.947
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:45.947
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:45.949
+!MESSAGE Validated 1. Took 115 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:46.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:46.689
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:47.172
+!MESSAGE Reconciled 0. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:47.632
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:47.632
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:47.634
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:47.753
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:48.039
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:48.367
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:48.843
+!MESSAGE Reconciled 0. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:49.093
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:49.572
+!MESSAGE Reconciled 0. Took 26 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:50.053
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:50.054
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:50.056
+!MESSAGE Validated 1. Took 82 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:51.650
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:51.975
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:52.257
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:52.485
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:52.860
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:53.288
+!MESSAGE Reconciled 0. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:53.300
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:53.727
+!MESSAGE Reconciled 0. Took 23 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:54.256
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:54.256
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:54.258
+!MESSAGE Validated 1. Took 80 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:55.097
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:40:55.103
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:41:17.646
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:41:18.072
+!MESSAGE Reconciled 0. Took 21 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:41:18.531
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:41:18.531
+!MESSAGE 4 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:41:18.534
+!MESSAGE Validated 1. Took 60 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.095
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.517
+!MESSAGE Reconciled 0. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.785
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.787
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.988
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.989
+!MESSAGE 6 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:43:04.989
+!MESSAGE Validated 1. Took 22 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:33.148
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:33.617
+!MESSAGE Reconciled 0. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:34.121
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:34.122
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:34.123
+!MESSAGE Validated 1. Took 55 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:34.335
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:34.757
+!MESSAGE Reconciled 0. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:35.258
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:35.259
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:35.260
+!MESSAGE Validated 1. Took 53 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.003
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.424
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.822
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.827
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.876
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.876
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:37.877
+!MESSAGE Validated 1. Took 28 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.138
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.213
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.483
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.606
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.910
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:43.971
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:44.347
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:44.389
+!MESSAGE Reconciled 0. Took 40 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:44.882
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:44.882
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:44.883
+!MESSAGE Validated 1. Took 44 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:45.399
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:54:45.402
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:33.258
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:33.490
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:33.931
+!MESSAGE Reconciled 0. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:34.411
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:34.411
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:34.412
+!MESSAGE Validated 1. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:37.483
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:37.660
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:38.148
+!MESSAGE Reconciled 0. Took 31 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:38.600
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:38.601
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:38.602
+!MESSAGE Validated 1. Took 52 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:41.990
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:42.118
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:42.190
+!MESSAGE >> document/completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:42.497
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:42.584
+!MESSAGE Reconciled 0. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:43.086
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:43.086
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:43.088
+!MESSAGE Validated 1. Took 51 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:43.629
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.097
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.577
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.578
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.579
+!MESSAGE Validated 1. Took 32 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.671
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:44.675
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:47.171
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:47.176
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:55.474
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:55.632
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:56.112
+!MESSAGE Reconciled 0. Took 25 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:56.606
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:56.606
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:55:56.607
+!MESSAGE Validated 1. Took 43 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:04.247
+!MESSAGE >> document/didClose
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:04.445
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:04.880
+!MESSAGE Reconciled 0. Took 30 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:05.378
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:05.379
+!MESSAGE 2 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:05.380
+!MESSAGE Validated 1. Took 48 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:06.688
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:07.110
+!MESSAGE Reconciled 0. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:07.138
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:07.466
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:07.900
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:08.369
+!MESSAGE begin problem for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:08.370
+!MESSAGE 6 problems reported for /BilletServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:08.370
+!MESSAGE Validated 1. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:08.392
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:08.397
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-17 18:56:56.285
+!MESSAGE >> document/didClose

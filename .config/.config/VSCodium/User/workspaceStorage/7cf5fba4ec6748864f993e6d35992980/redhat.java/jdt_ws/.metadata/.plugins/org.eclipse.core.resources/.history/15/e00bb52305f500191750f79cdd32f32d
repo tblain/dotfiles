@@ -1,0 +1,53 @@
+package univ.m1if10.classes;
+
+/**
+ * Choix
+ */
+public class Choix {
+
+    private int idQuestion;
+    private int id;
+    private boolean juste; // bonne reponse ou pas
+
+    /**
+     * @return int return the idQuestion
+     */
+    public int getIdQuestion() {
+        return idQuestion;
+    }
+
+    /**
+     * @param idQuestion the idQuestion to set
+     */
+    public void setIdQuestion(int idQuestion) {
+        this.idQuestion = idQuestion;
+    }
+
+    /**
+     * @return int return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return boolean return the juste
+     */
+    public boolean getJuste() {
+        return juste;
+    }
+
+    /**
+     * @param juste the juste to set
+     */
+    public void setJustes(boolean juste) {
+        this.juste = juste;
+    }
+}

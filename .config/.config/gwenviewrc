@@ -1,0 +1,40 @@
+[General]
+SideBarPage=operations
+ThumbnailBarIsVisible=true
+
+[ImageView]
+ThumbnailSplitterSizes=739,211
+
+[MainWindow]
+Height 1080=1013
+State=AAAA/wAAAAD9AAAAAAAAAdQAAAO8AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=468
+
+[Recent Files]
+File1[$e]=$HOME/Pictures/wallpaper/nature/1/1562044786213.png
+File10[$e]=$HOME/Downloads/proxy.duckduckgo.com.png
+File2[$e]=$HOME/Pictures/wallpaper/nature/1/1562044746636.png
+File3[$e]=$HOME/Pictures/wallpaper/nature/2/1920x1080-animal-bird-fauna-kingfisher-nature-1428587-wallhere.com.jpg
+File4[$e]=$HOME/Pictures/Screenshot_2018-09-08_21-30-46.png
+File5[$e]=$HOME/Pictures/Screenshot_2018-10-06_22-32-08.png
+File6[$e]=$HOME/Pictures/Screenshot_2019-11-04_15-53-54.png
+File7[$e]=$HOME/Pictures/tetris_41-60.png
+File8[$e]=$HOME/Pictures/tetris_42-35.png
+File9[$e]=$HOME/Pictures/wp asimov.jpg
+Name1[$e]=1562044786213.png
+Name10[$e]=proxy.duckduckgo.com.png
+Name2[$e]=1562044746636.png
+Name3[$e]=1920x1080-animal-bird-fauna-kingfisher-nature-1428587-wallhere.com.jpg
+Name4[$e]=Screenshot_2018-09-08_21-30-46.png
+Name5[$e]=Screenshot_2018-10-06_22-32-08.png
+Name6[$e]=Screenshot_2019-11-04_15-53-54.png
+Name7[$e]=tetris_41-60.png
+Name8[$e]=tetris_42-35.png
+Name9[$e]=wp asimov.jpg
+
+[SideBar]
+SideBarSplitterSizes=188,274
+
+[ThumbnailView]
+Sorting=Sorting::Rating

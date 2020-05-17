@@ -1,0 +1,30 @@
+{
+  "discord_desktop_core": {
+    "installedVersion": 8
+  },
+  "discord_erlpack": {
+    "installedVersion": 2
+  },
+  "discord_spellcheck": {
+    "installedVersion": 2
+  },
+  "discord_utils": {
+    "installedVersion": 2
+  },
+  "discord_voice": {
+    "installedVersion": 12
+  },
+  "discord_game_utils": {
+    "installedVersion": 3
+  },
+  "discord_rpc": {
+    "installedVersion": 3
+  },
+  "discord_media": {},
+  "discord_contact_import": {
+    "installedVersion": 1
+  },
+  "discord_zstd": {
+    "installedVersion": 1
+  }
+}

@@ -1,0 +1,8 @@
+INDEX VERSION 1.131+/home/tblain/.config/coc/extensions/coc-java-data/jdt_ws_20d0a7169a17f3299beff502c61edc72/.metadata/.plugins/org.eclipse.jdt.core
+418782729.index
+4218066583.index
+4010541665.index
+1829079182.index
+3842426239.index
+312257639.index
+202000794.index

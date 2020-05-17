@@ -1,0 +1,125 @@
+separator=true
+separator_block_width=20
+border_top=0
+border_left=0
+border_right=0
+border_bottom=2
+
+[bandwidth]
+command=/home/tblain/scripts/bandwidth2 
+interval=persist
+markup=pango
+LABEL=
+WARN_RX=307200
+WARN_TX=30720
+CRIT_RX=512000
+CRIT_TX=51200
+border=#59179a
+
+[wireless]
+label=  
+command=[[ -z "$(iwgetid -r)" ]] || echo "$(iwgetid -r) "
+interval=2
+border=#18971a
+
+# simpler version
+#[bandwidth]
+#command=/home/tblain/scripts/bandwidth
+#interval=5
+#INTERFACE=wlp1s0
+#INLABEL=IN 
+#OUTLABEL=OUT 
+#TREAT_UNKNOWN_AS_UP=0
+
+[pacman-updates]
+command=scripts/arch-update
+markup=pango
+interval=3600
+QUIET=true
+WATCH=^linux.* ^pacman.*
+BASE_COLOR=#5fff5f
+UPDATE_COLOR=#FFFF85
+AUR=true
+LABEL= 
+
+[cpu_usage]
+command=/home/tblain/scripts/cpu-usage
+interval=10
+LABEL=Cpu 
+markup=pango
+min_width=CPU: 100%
+T_WARN=50
+T_CRIT=80
+DECIMALS=0
+border=#FFFF85
+
+[memory]
+command=/home/tblain/scripts/memory
+label=Mem 
+interval=30
+border=#00ff00
+
+# ancient version
+#[Ram]
+#label=RAM 
+#command=$HOME/scripts/ram.sh
+#interval=5
+#border=#00ff00
+
+#[output]
+#command=/home/tblain/scripts/monitor.sh
+#interval=60
+#signal=4
+
+[volume]
+label= 
+command=alsa-status
+interval=5
+markup=pango
+border=#cc241d
+
+[brightness]
+label= 
+command=printf "%.0f " $(xbacklight -get)
+interval=10
+border=#d79921
+
+[temperature]
+label=  
+command=echo "$($HOME/scripts/temperature.sh 'Core 0') $($HOME/scripts/temperature.sh 'Core 1') "
+interval=5
+border=#b16286
+
+#[battery]
+#command=/home/tblain/scripts/battery.sh
+#interval=30
+#LABEL=BAT
+#border=#458588
+
+[batterybar]
+command=/home/tblain/scripts/batterybar
+label=Bat 
+border=#458588
+interval=5
+markup=pango
+min_width=bat: ■■■■■
+# Discharging colors low to high
+C1=#FF0027
+C2=#FF3B05
+C3=#FFB923
+C4=#FFD000
+C5=#E4FF00
+C6=#ADFF00
+C7=#6DFF00
+C8=#10BA00
+CHARGING_COLOR=#00AFE3
+FULL_COLOR=#FFFFFF
+AC_COLOR=#535353
+
+[time]
+label=
+command=echo " `date +'%a %d %b'` <b>`date +'%T'`</b> "; [[ -z "${BLOCK_BUTTON}" ]] || gsimplecal &
+interval=1
+markup=pango
+border=#928374
+separator_block_width=0

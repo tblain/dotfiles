@@ -1,0 +1,4662 @@
+!SESSION 2019-10-24 16:11:18.165 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.427
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.681
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.732
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.733
+!MESSAGE Initializing Java Language Server 0.46.0.201910230838
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.772
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.773
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.773
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.773
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.773
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.774
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.runtime.classpath, vscode.java.test.project.info, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.774
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.775
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.775
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.775
+!MESSAGE Non-Static Commands: [vscode.java.resolveMainMethod, vscode.java.checkProjectSettings, vscode.java.fetchUsageData, vscode.java.resolveClasspath, vscode.java.validateLaunchConfig, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.776
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.776
+!MESSAGE Non-Static Commands: [java.intellicode.completion, java.intellicode.completion.resolve, java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.777
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.777
+!MESSAGE Non-Static Commands: [java.checkstyle.server.checkCode, java.checkstyle.server.setConfiguration, java.checkstyle.server.getVersion, java.checkstyle.server.quickFix]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.813
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:21.869
+!MESSAGE Creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:22.093
+!MESSAGE Finished creating the Java project jdt.ls-java-project
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:23.800
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:31.107
+!MESSAGE Workspace initialized in 9326ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:32.316
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:32.362
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:32.495
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, arguments=null, jvmArguments=null, home=null}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, checkstyle={configuration=, properties={}, version=8.18, modules=[], autocheck=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, console=integratedTerminal}}, dependency={showOutline=true, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, help={firstView=auto}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, saveAllBeforeLaunchTest=true, forceBuildBeforeLaunchTest=true, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:33.026
+!MESSAGE >> workspace/executeCommand java.maven.initializeSearcher
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:33.096
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:34.311
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:34.626
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:34.628
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:11:34.638
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:02.778
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:02.838
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:02.841
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:03.704
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:03.842
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:03.874
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:03.884
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:03.885
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.225
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.415
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.486
+!MESSAGE Reconciled 0. Took 1258 ms
+
+!ENTRY java-debug 1 0 2019-10-24 16:12:04.648
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.799
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.875
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.899
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.903
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.906
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.945
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:04.969
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.753
+!MESSAGE >> workspace/executeCommand java.intellicode.enable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.770
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.770
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.772
+!MESSAGE Validated 1. Took 880 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.861
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.867
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.871
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.875
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.876
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.877
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.878
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.882
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:12:05.891
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:10.182
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:14.482
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:14.640
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:14.701
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:14.702
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:15.559
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:19.885
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:20.027
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:20.100
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:13:20.106
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:14:26.465
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:01.259
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:12.011
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:12.151
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:12.151
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:12.166
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY java-debug 1 0 2019-10-24 16:15:12.754
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2019-10-24 16:15:20.136 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:23.805
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.055
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.101
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.102
+!MESSAGE Initializing Java Language Server 0.46.0.201910230838
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.137
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.138
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.138
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.139
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.139
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.140
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.runtime.classpath, vscode.java.test.project.info, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.140
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.141
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.141
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.141
+!MESSAGE Non-Static Commands: [vscode.java.resolveMainMethod, vscode.java.checkProjectSettings, vscode.java.fetchUsageData, vscode.java.resolveClasspath, vscode.java.validateLaunchConfig, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.142
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.142
+!MESSAGE Non-Static Commands: [java.intellicode.completion, java.intellicode.completion.resolve, java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.143
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.143
+!MESSAGE Non-Static Commands: [java.checkstyle.server.checkCode, java.checkstyle.server.setConfiguration, java.checkstyle.server.getVersion, java.checkstyle.server.quickFix]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:24.178
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.583
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.655
+!MESSAGE Workspace initialized in 1507ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.685
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.695
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.726
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:25.754
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, arguments=null, jvmArguments=null, home=null}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, checkstyle={configuration=, properties={}, version=8.18, modules=[], autocheck=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, console=integratedTerminal}}, dependency={showOutline=true, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, help={firstView=auto}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, saveAllBeforeLaunchTest=true, forceBuildBeforeLaunchTest=true, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:26.088
+!MESSAGE >> workspace/executeCommand java.maven.initializeSearcher
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:26.149
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:26.363
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:26.373
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:15:26.383
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:23.009
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:26.514
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:26.525
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:28.946
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:32.620
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:38.361
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:39.400
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:43.953
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:46.616
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:46.651
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:46.660
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.234
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.237
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.249
+!MESSAGE >> document/foldingRange
+
+!ENTRY java-debug 1 0 2019-10-24 16:16:47.297
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.323
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.727
+!MESSAGE Reconciled 0. Took 629 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.778
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.779
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.780
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.781
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.797
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:47.866
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:48.525
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:48.825
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:48.825
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:48.832
+!MESSAGE Validated 1. Took 655 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:49.100
+!MESSAGE >> workspace/executeCommand java.intellicode.enable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:52.325
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:16:56.160
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:04.641
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:17.882
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.058
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.064
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.075
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.112
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.113
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.315
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.469
+!MESSAGE Reconciled 0. Took 4 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.939
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.940
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.954
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.954
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:18.956
+!MESSAGE Validated 2. Took 35 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.065
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.068
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.073
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.076
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.076
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.080
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.080
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.084
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:17:20.096
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:19.734
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:19.987
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.064
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.084
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.086
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.147
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.281
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:20.297
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:21.150
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:21.684
+!MESSAGE Reconciled 0. Took 472 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:21.891
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.200
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.281
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.778
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.807
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.818
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.819
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.838
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.839
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.844
+!MESSAGE Validated 3. Took 709 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:22.970
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:23.709
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:24.075
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:40.889
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:40.981
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.036
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.038
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.761
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.892
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.915
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:41.919
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.278
+!MESSAGE Reconciled 0. Took 110 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.334
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.436
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.506
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.555
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.602
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:42.852
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.051
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.052
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.103
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.105
+!MESSAGE 14 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.124
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.124
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.126
+!MESSAGE Validated 3. Took 397 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.686
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.697
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:43.849
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.602
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.611
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.614
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.620
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.624
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.635
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.638
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.647
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:44.672
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:47.717
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:47.771
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:47.781
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:47.790
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:47.797
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:48.177
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:48.178
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:48.179
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:48.324
+!MESSAGE Reconciled 0. Took 148 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:48.716
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.133
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.203
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.215
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.262
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.264
+!MESSAGE 14 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.273
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.278
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.313
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.314
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.320
+!MESSAGE Validated 4. Took 544 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:49.981
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:51.463
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:51.464
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:51.615
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:51.648
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:51.649
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:52.268
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:52.927
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.349
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.545
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.605
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.609
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.613
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.821
+!MESSAGE Reconciled 0. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:53.835
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2019-10-24 16:20:53.911
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:871)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:83)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:71)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:563)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:137)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:61)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:381)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:346)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGetterSetterAction(SourceAssistProcessor.java:216)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:112)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:137)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:605)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$45(JDTLanguageServer.java:936)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2019-10-24 16:20:53.923
+!MESSAGE 
+!STACK 0
+org.eclipse.jface.text.BadLocationException
+	at org.eclipse.jface.text.TreeLineTracker.fail(TreeLineTracker.java:1054)
+	at org.eclipse.jface.text.TreeLineTracker.lineByOffset(TreeLineTracker.java:268)
+	at org.eclipse.jface.text.TreeLineTracker.getLineNumberOfOffset(TreeLineTracker.java:1122)
+	at org.eclipse.jface.text.AbstractLineTracker.getLineNumberOfOffset(AbstractLineTracker.java:155)
+	at org.eclipse.jface.text.AbstractDocument.getLineOfOffset(AbstractDocument.java:871)
+	at org.eclipse.core.internal.filebuffers.SynchronizableDocument.getLineOfOffset(SynchronizableDocument.java:334)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:83)
+	at org.eclipse.jdt.ls.core.internal.handlers.JsonRpcHelpers.toLine(JsonRpcHelpers.java:71)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.toRange(JDTUtils.java:564)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:137)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:61)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:381)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:346)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGetterSetterAction(SourceAssistProcessor.java:216)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:112)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:137)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:605)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$45(JDTLanguageServer.java:936)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 4 0 2019-10-24 16:20:53.942
+!MESSAGE Error converting TextEdits
+!STACK 0
+org.eclipse.text.edits.MalformedTreeException: End position lies outside document range
+	at org.eclipse.text.edits.TextEditProcessor.checkIntegrityDo(TextEditProcessor.java:180)
+	at org.eclipse.text.edits.TextEdit.dispatchCheckIntegrity(TextEdit.java:746)
+	at org.eclipse.text.edits.TextEditProcessor.performEdits(TextEditProcessor.java:153)
+	at org.eclipse.text.edits.TextEdit.apply(TextEdit.java:714)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.visit(TextEditConverter.java:139)
+	at org.eclipse.text.edits.MultiTextEdit.accept0(MultiTextEdit.java:146)
+	at org.eclipse.text.edits.TextEdit.accept(TextEdit.java:641)
+	at org.eclipse.jdt.ls.core.internal.TextEditConverter.convert(TextEditConverter.java:61)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEdit(SourceAssistProcessor.java:381)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.convertToWorkspaceEditAction(SourceAssistProcessor.java:346)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getGetterSetterAction(SourceAssistProcessor.java:216)
+	at org.eclipse.jdt.ls.core.internal.text.correction.SourceAssistProcessor.getSourceActionCommands(SourceAssistProcessor.java:112)
+	at org.eclipse.jdt.ls.core.internal.handlers.CodeActionHandler.getCodeActionCommands(CodeActionHandler.java:137)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$14(JDTLanguageServer.java:605)
+	at org.eclipse.jdt.ls.core.internal.handlers.JDTLanguageServer.lambda$45(JDTLanguageServer.java:936)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:642)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:479)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:177)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.438
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.439
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.463
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.463
+!MESSAGE 14 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.475
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.477
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.504
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.505
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.509
+!MESSAGE Validated 4. Took 235 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.587
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.619
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.731
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.896
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:54.897
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:55.390
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.624
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.646
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.651
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.654
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.659
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.660
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.661
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.662
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.667
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.684
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:56.859
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.114
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.270
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.326
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.326
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.328
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.426
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:57.630
+!MESSAGE Reconciled 0. Took 61 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.165
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.166
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.191
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.192
+!MESSAGE 15 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.198
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.198
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.212
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.212
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.214
+!MESSAGE Validated 4. Took 183 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.454
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:58.907
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.106
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.156
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.160
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.163
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.282
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.382
+!MESSAGE Reconciled 0. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.594
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.688
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.738
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.738
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.749
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:20:59.865
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.073
+!MESSAGE Reconciled 0. Took 24 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.326
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.456
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.489
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.528
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.589
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2019-10-24 16:21:00.622
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.652
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.779
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.829
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.830
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.835
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:00.957
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.004
+!MESSAGE Reconciled 0. Took 9 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.535
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.536
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.558
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.561
+!MESSAGE 14 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.575
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.576
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.599
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.600
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.603
+!MESSAGE Validated 4. Took 197 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:01.933
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.360
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.561
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.609
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.610
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.617
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.709
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:02.828
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.304
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.305
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.314
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.315
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.320
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.320
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.332
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.332
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.333
+!MESSAGE Validated 4. Took 104 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.583
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.664
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:03.719
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:04.058
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.006
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.416
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.787
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.820
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.846
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.871
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.876
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.877
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.880
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.884
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.947
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:05.966
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:06.023
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:06.212
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:06.419
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:07.290
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:07.459
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:07.580
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:07.639
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.050
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.052
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.168
+!MESSAGE >> document/rangeFormatting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.268
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.276
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.339
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.340
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.404
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.441
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.512
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:14.525
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.072
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.073
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.102
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.112
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.112
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.118
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.119
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.154
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.155
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.156
+!MESSAGE Validated 4. Took 241 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.196
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.197
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.389
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.461
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.486
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.535
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:15.800
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.635
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.832
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.899
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.900
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.909
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:16.987
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.013
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.094
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.124
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.168
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.255
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.303
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.325
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.361
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.386
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.463
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.646
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.705
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.705
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.719
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.720
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.727
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.728
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.762
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.763
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.764
+!MESSAGE Validated 4. Took 238 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:17.955
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:18.114
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:18.219
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:18.829
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.391
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.397
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.401
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.407
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.407
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.408
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.408
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.422
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:19.501
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.519
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.523
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.737
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.738
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.739
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:21.739
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.057
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.063
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.082
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.270
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.272
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:25.274
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.506
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.508
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.689
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.690
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.690
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:26.691
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.144
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.234
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.312
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.465
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.574
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.809
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:27.833
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:28.001
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:28.224
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:28.416
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:28.725
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:28.884
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:29.076
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:29.386
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:29.751
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:29.755
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:29.850
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:30.524
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:30.683
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:30.861
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.393
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.395
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.572
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.648
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.677
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.726
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:21:31.782
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:29:26.285
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:29:26.316
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:29:27.412
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:29:55.722
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:29:55.831
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:00.774
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:00.793
+!MESSAGE Classpath is incomplete. Only syntax errors will be reported for file:///home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/servlets/Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:00.805
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:00.806
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:00.807
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:01.315
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:01.315
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:01.316
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:01.364
+!MESSAGE Reconciled 0. Took 163 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.142
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.185
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.185
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.240
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.240
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.253
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.255
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.282
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.282
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.315
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.387
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.391
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.392
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:02.406
+!MESSAGE Validated 5. Took 641 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:03.080
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:04.229
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.031
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.264
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.284
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.414
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.434
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.480
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.577
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:05.970
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:06.239
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:06.398
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:06.419
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:06.865
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:07.723
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:07.728
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:08.961
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:09.113
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:09.116
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:09.180
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:09.492
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:10.035
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.567
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.572
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.575
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.576
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.576
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.577
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.579
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.589
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.681
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.756
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:21.763
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:22.493
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:22.882
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:22.882
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:22.883
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:22.909
+!MESSAGE Reconciled 0. Took 10 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.016
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.042
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.138
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.334
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.528
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.529
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.542
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.542
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.568
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.578
+!MESSAGE 20 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.600
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.601
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.613
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.710
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.710
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:23.728
+!MESSAGE Validated 5. Took 367 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:24.085
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:24.174
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:24.248
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:24.447
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:24.883
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.084
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.086
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.088
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.090
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.090
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.090
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.091
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.093
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.097
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:25.188
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:27.037
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:27.431
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:28.380
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:29.985
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:30.561
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:30.959
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.159
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.222
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.223
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.426
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.606
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.806
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.855
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:31.856
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.064
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.264
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.436
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.441
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.452
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.453
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.510
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.513
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.583
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.662
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.663
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.671
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.672
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.683
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.683
+!MESSAGE 19 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.695
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.696
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.725
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.725
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.726
+!MESSAGE Validated 5. Took 211 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:32.961
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.608
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.613
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.616
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.620
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.621
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.622
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.624
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.628
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.640
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:33.937
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:34.183
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:34.740
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:35.050
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:43.619
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:43.667
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:43.769
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:43.892
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:44.217
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:44.389
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:44.680
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.375
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.377
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.585
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.586
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.588
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.594
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.968
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.973
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.980
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.985
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.987
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.989
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.989
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:45.998
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:46.031
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:47.369
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:47.880
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:48.117
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:49.875
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:49.877
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:49.878
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:50.028
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:50.029
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:50.029
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:50.032
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:51.023
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:51.735
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.007
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.193
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.392
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.453
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.455
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.458
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.570
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.661
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:52.809
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.007
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.197
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.198
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.214
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.215
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.227
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.227
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.236
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.236
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.259
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.263
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.265
+!MESSAGE Validated 5. Took 154 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.287
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.537
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.801
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.852
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:53.872
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:54.003
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:54.030
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:54.312
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:54.757
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:54.890
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:55.139
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.062
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.065
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.067
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.070
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.070
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.071
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.075
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.088
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:56.092
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:57.403
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:57.778
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:58.076
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:58.200
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:58.233
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:30:58.442
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:37.871
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:37.876
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:38.686
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:38.871
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:39.437
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:39.442
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:40.337
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:40.585
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:40.971
+!MESSAGE >> document/definition
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:40.995
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:41.049
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:41.078
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:41.373
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:41.575
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:42.333
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:42.397
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.050
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.054
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.120
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.122
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.123
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.125
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.125
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.125
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.126
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.127
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.131
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:43.151
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:50.528
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:50.845
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:55.568
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:55.737
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:55.758
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:55.948
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:56.948
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:35:56.951
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:39.310
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:39.786
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:39.787
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:41.229
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:41.236
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:43.484
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:43.683
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:44.092
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:44.374
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:44.590
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:45.962
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:45.965
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:46.227
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:47.775
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:49.040
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:49.967
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.161
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.221
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.222
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.398
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.433
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.565
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.586
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:50.875
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.017
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.017
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.027
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.028
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.054
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.055
+!MESSAGE 14 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.068
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.068
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.101
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.101
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:51.103
+!MESSAGE Validated 5. Took 219 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.626
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.629
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.631
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.633
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.634
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.634
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.635
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.638
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:36:52.647
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:43.751
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:43.780
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:44.074
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.824
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.827
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.830
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.835
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.836
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.838
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.839
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.842
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:45.852
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.534
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.809
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.811
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.814
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.833
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:46.903
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.006
+!MESSAGE Reconciled 0. Took 17 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.487
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.553
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.554
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.586
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.586
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.614
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.614
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.620
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.641
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.641
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.691
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.692
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.692
+!MESSAGE Validated 5. Took 285 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:47.815
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:48.156
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:48.856
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.106
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.250
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.335
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.367
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.444
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.496
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.508
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.562
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.608
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.618
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.621
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.623
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.626
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.629
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.630
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.632
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.637
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.647
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.670
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:49.673
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:50.025
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:51.641
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.190
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.201
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.355
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.501
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.551
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.551
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.555
+!MESSAGE >> document/codeAction
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2019-10-24 16:40:53.570
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.627
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.662
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.798
+!MESSAGE Reconciled 0. Took 39 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.851
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.856
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:53.974
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.173
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.223
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.224
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.226
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.323
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.418
+!MESSAGE Reconciled 0. Took 16 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.737
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.961
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.961
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.968
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.968
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.977
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.977
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.986
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:54.987
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.028
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.028
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.029
+!MESSAGE Validated 5. Took 161 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.327
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.975
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.976
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.978
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.979
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.980
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:55.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.015
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.021
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.178
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.229
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.230
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.305
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.504
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.563
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.758
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.809
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.810
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.813
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.964
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:56.981
+!MESSAGE Reconciled 0. Took 15 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.500
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.500
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.510
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.512
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.533
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.533
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.546
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.546
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.580
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.580
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.582
+!MESSAGE Validated 5. Took 171 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.654
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.794
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.854
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.903
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:57.904
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.027
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.119
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.630
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.630
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.646
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.646
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.661
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.661
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.679
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.680
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.720
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.720
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:58.721
+!MESSAGE Validated 5. Took 201 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.021
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.093
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.287
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.338
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.342
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.346
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.443
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:40:59.530
+!MESSAGE Reconciled 0. Took 34 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.164
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.164
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.181
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.181
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.215
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.216
+!MESSAGE 19 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.233
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.233
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.285
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.288
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.288
+!MESSAGE Validated 5. Took 357 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:00.920
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.091
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.094
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.096
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.099
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.100
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.101
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.102
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.106
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.115
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.143
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.389
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.680
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.881
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.928
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.928
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:01.930
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.029
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.153
+!MESSAGE Reconciled 0. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.674
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.674
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.681
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.681
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.705
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.705
+!MESSAGE 19 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.713
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.713
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.743
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.743
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:02.743
+!MESSAGE Validated 5. Took 140 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.681
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.684
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.690
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.701
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.702
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.702
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.703
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.706
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:03.715
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:04.036
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:18.440
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:18.480
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:18.808
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.558
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.562
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.565
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.569
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.570
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.571
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.572
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.576
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:41:20.586
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.642
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.842
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.888
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.890
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.892
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:19.989
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.112
+!MESSAGE Reconciled 0. Took 13 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.226
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.393
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.443
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.445
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.446
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.521
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.720
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.772
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.772
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.774
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:20.843
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.039
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.089
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.090
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.189
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.212
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.411
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.461
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.462
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.560
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.677
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.777
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:21.965
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.015
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.016
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.022
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.093
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.291
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.343
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.343
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.346
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.445
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:22.516
+!MESSAGE Reconciled 0. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.126
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.127
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.143
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.144
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.172
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.172
+!MESSAGE 21 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.190
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.191
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.241
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.241
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.242
+!MESSAGE Validated 5. Took 273 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.297
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.439
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.597
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.632
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.699
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.713
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.717
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.721
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.788
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.905
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:23.945
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.360
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.561
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.562
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.568
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.568
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.575
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.575
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.605
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.605
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.651
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.665
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.666
+!MESSAGE Validated 5. Took 310 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:24.886
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.696
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.699
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.701
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.703
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.704
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.704
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.705
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.707
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.713
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:44:25.906
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.496
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.508
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2019-10-24 16:46:40.528
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.652
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.708
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.709
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.740
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.801
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.822
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:40.921
+!MESSAGE Reconciled 0. Took 19 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.143
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.334
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.359
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.461
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.467
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.513
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.514
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.526
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.526
+!MESSAGE 19 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.534
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.534
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.605
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.606
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.607
+!MESSAGE Validated 5. Took 236 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.665
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:41.836
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.018
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.056
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.255
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.306
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.306
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.308
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.404
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.413
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.478
+!MESSAGE Reconciled 0. Took 20 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.609
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:42.911
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.132
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.133
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.173
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.174
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.207
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.208
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.216
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.217
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.275
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.275
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.276
+!MESSAGE Validated 5. Took 397 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:43.751
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.417
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.662
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.664
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.666
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.669
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.669
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.670
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.670
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.672
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:44.678
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:45.379
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:46:46.297
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:48.321
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:48.355
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:48.660
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:49.871
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:49.877
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.412
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.416
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.423
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.431
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.444
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.450
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.451
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.465
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 16:59:50.483
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:13.323
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:13.331
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:14.357
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:14.369
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:17.634
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:17.640
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:18.375
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:18.392
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:19.092
+!MESSAGE >> document/hover
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:19.139
+!MESSAGE >> java/findLinks
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:20.856
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.405
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.526
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.692
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.753
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.753
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.840
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:21.994
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.399
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.597
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.647
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.648
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.753
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:22.866
+!MESSAGE Reconciled 0. Took 14 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.408
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.408
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.427
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.427
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.461
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.461
+!MESSAGE 18 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.479
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.480
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.538
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.538
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:23.539
+!MESSAGE Validated 5. Took 272 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.076
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.158
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.164
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.400
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.403
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.407
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.411
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.412
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.412
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.413
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.416
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:24.430
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:25.450
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:25.612
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:25.788
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:26.026
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:27.255
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:28.646
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:28.824
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:28.833
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:28.872
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.226
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.491
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.546
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.546
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.623
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:29.869
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.597
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.631
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.664
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.869
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.976
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.978
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.979
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.981
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.982
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.985
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:30.990
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:31.137
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:31.336
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:31.594
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:32.179
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:32.426
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:39.773
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.440
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.445
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.446
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.495
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.549
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.550
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.584
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.677
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.715
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:00:40.717
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:00.779
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:00.808
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:00.931
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:01.024
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:01.341
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.091
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.093
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.094
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.097
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.097
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.097
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.097
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.124
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:03.128
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:08.969
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:09.182
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:09.694
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:10.249
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:10.488
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:10.692
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:10.868
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.034
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.084
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.085
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.092
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.133
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.282
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.424
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.585
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.784
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.834
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.835
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:11.934
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.001
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.126
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.211
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.279
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.329
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.352
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2019-10-24 17:02:12.367
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.384
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.534
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.674
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.724
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.724
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.728
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.824
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:12.966
+!MESSAGE Reconciled 0. Took 18 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.204
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.386
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.399
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.407
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.461
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.461
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.463
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.550
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.663
+!MESSAGE Reconciled 0. Took 6 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.701
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.806
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:13.830
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.076
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.120
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.215
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.301
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.301
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.362
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.393
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:14.499
+!MESSAGE Reconciled 0. Took 7 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.117
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.300
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.374
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.374
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.376
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.438
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.526
+!MESSAGE Reconciled 0. Took 5 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:15.626
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.209
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.209
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.223
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.223
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.241
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.241
+!MESSAGE 22 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.271
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.271
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.283
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.357
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.357
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.357
+!MESSAGE Validated 5. Took 381 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:16.563
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.097
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.118
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.120
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.122
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.125
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.126
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.126
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.127
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.129
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.139
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.286
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.485
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.537
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.538
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.635
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.746
+!MESSAGE Reconciled 0. Took 8 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.983
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:17.989
+!MESSAGE >> workspace/executeCommand java.intellicode.completion
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.139
+!MESSAGE >> document/didChange
+
+!ENTRY com.microsoft.jdtls.intellicode.core 1 0 2019-10-24 17:02:18.176
+!MESSAGE Completion request completed
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.210
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.360
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.361
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.362
+!MESSAGE >> document/didChange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.363
+!MESSAGE >> workspace/executeCommand java.intellicode.completion.resolve
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.512
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.563
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.563
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.566
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.663
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.766
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:18.827
+!MESSAGE Reconciled 0. Took 12 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.042
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.166
+!MESSAGE >> document/documentHighlight
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.310
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.310
+!MESSAGE 0 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.323
+!MESSAGE begin problem for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.323
+!MESSAGE 13 problems reported for /DeconnexionServlet.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.403
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.403
+!MESSAGE 23 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.418
+!MESSAGE begin problem for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.425
+!MESSAGE 1 problems reported for /Choix.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.471
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.472
+!MESSAGE 0 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.472
+!MESSAGE Validated 5. Took 243 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:19.668
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:20.086
+!MESSAGE >> document/willSaveWaitUntil
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:20.112
+!MESSAGE >> document/didSave
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:20.259
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:20.397
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:20.712
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:21.834
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.148
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.150
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.153
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.155
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.156
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.156
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.158
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.160
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:22.169
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:27.581
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:27.700
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:27.701
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-24 17:02:27.723
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY java-debug 1 0 2019-10-24 17:02:28.360
+!MESSAGE Stopping com.microsoft.java.debug.plugin
+!SESSION 2019-10-25 18:05:45.996 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:53.783
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.338
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.387
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.389
+!MESSAGE Initializing Java Language Server 0.46.0.201910230838
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.449
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.450
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.451
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.451
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.452
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.452
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.runtime.classpath, vscode.java.test.project.info, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.453
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.454
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.454
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.455
+!MESSAGE Non-Static Commands: [vscode.java.resolveMainMethod, vscode.java.checkProjectSettings, vscode.java.fetchUsageData, vscode.java.resolveClasspath, vscode.java.validateLaunchConfig, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.455
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.455
+!MESSAGE Non-Static Commands: [java.intellicode.completion, java.intellicode.completion.resolve, java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.456
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.456
+!MESSAGE Non-Static Commands: [java.checkstyle.server.checkCode, java.checkstyle.server.setConfiguration, java.checkstyle.server.getVersion, java.checkstyle.server.quickFix]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:55.515
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.248
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.634
+!MESSAGE Workspace initialized in 2172ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.653
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.656
+!MESSAGE Starting Maven update for webapp
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.671
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.696
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, arguments=null, jvmArguments=null, home=null}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, checkstyle={configuration=, properties={}, version=8.18, modules=[], autocheck=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, console=integratedTerminal}}, dependency={showOutline=true, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, help={firstView=auto}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, saveAllBeforeLaunchTest=true, forceBuildBeforeLaunchTest=true, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:05:57.698
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:00.251
+!MESSAGE Reconciled 0. Took 601 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:02.889
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:02.889
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:02.906
+!MESSAGE Validated 1. Took 2217 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:03.794
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:03.805
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:03.807
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:03.814
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:34.430
+!MESSAGE Parent process stopped running, forcing server exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:34.431
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:06:34.451
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-25 18:06:35.105
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2019-10-25 18:07:32.544 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.4
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws
+
+!ENTRY org.eclipse.core.resources 2 10035 2019-10-25 18:07:33.912
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:36.909
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is started
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.419
+!MESSAGE Main thread is waiting
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.556
+!MESSAGE >> initialize
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.558
+!MESSAGE Initializing Java Language Server 0.46.0.201910230838
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.635
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.636
+!MESSAGE Non-Static Commands: [java.edit.organizeImports, java.project.updateSourceAttachment, java.project.removeFromSourcePath, java.project.listSourcePaths, java.project.resolveSourceAttachment, java.project.addToSourcePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.640
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.641
+!MESSAGE Non-Static Commands: [java.maven.initializeSearcher, java.maven.searchArtifact, java.maven.addDependency, java.maven.controlContext]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.641
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.642
+!MESSAGE Non-Static Commands: [vscode.java.test.search.codelens, vscode.java.test.runtime.classpath, vscode.java.test.project.info, vscode.java.test.search.items.all, vscode.java.test.search.location, vscode.java.test.search.items, vscode.java.test.get.testpath, vscode.java.test.junit.argument]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.642
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.643
+!MESSAGE Non-Static Commands: [java.project.list, java.getPackageData, java.resolvePath]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.643
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.644
+!MESSAGE Non-Static Commands: [vscode.java.resolveMainMethod, vscode.java.checkProjectSettings, vscode.java.fetchUsageData, vscode.java.resolveClasspath, vscode.java.validateLaunchConfig, vscode.java.resolveMainClass, vscode.java.updateDebugSettings, vscode.java.buildWorkspace, vscode.java.startDebugSession, vscode.java.inferLaunchCommandLength, vscode.java.resolveElementAtSelection]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.645
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.645
+!MESSAGE Non-Static Commands: [java.intellicode.completion, java.intellicode.completion.resolve, java.intellicode.enable]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.646
+!MESSAGE Static Commands: []
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.646
+!MESSAGE Non-Static Commands: [java.checkstyle.server.checkCode, java.checkstyle.server.setConfiguration, java.checkstyle.server.getVersion, java.checkstyle.server.quickFix]
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:37.680
+!MESSAGE >> initialized
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:39.941
+!MESSAGE Importing Maven project(s)
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:40.074
+!MESSAGE Workspace initialized in 1603ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:40.110
+!MESSAGE >> initialization job finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:40.165
+!MESSAGE >> workspace/didChangeConfiguration
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:40.274
+!MESSAGE >>New configuration: {java={home=null, jdt={ls={vmargs=-noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication}}, errors={incompleteClasspath={severity=warning}}, configuration={checkProjectSettingsExclusions=true, updateBuildConfiguration=interactive, maven={userSettings=null}}, trace={server=off}, import={maven={enabled=true}, gradle={enabled=true, wrapper={enabled=true}, version=null, arguments=null, jvmArguments=null, home=null}, exclusions=[**/node_modules/**, **/.metadata/**, **/archetype-resources/**, **/META-INF/maven/**]}, maven={downloadSources=false}, referencesCodeLens={enabled=false}, signatureHelp={enabled=false}, implementationsCodeLens={enabled=false}, format={enabled=true, settings={url=null, profile=null}, comments={enabled=true}, onType={enabled=true}}, saveActions={organizeImports=false}, contentProvider={preferred=null}, autobuild={enabled=true}, maxConcurrentBuilds=1.0, completion={enabled=true, overwrite=true, guessMethodArguments=false, favoriteStaticMembers=[org.junit.Assert.*, org.junit.Assume.*, org.junit.jupiter.api.Assertions.*, org.junit.jupiter.api.Assumptions.*, org.junit.jupiter.api.DynamicContainer.*, org.junit.jupiter.api.DynamicTest.*, org.mockito.Mockito.*, org.mockito.ArgumentMatchers.*, org.mockito.Answers.*], filteredTypes=[java.awt.*, com.sun.*], importOrder=[java, javax, com, org]}, foldingRange={enabled=true}, progressReports={enabled=true}, codeGeneration={hashCodeEquals={useJava7Objects=false, useInstanceof=false}, useBlocks=false, generateComments=false, toString={template=${object.className} [${member.name()}=${member.value}, ${otherMembers}], codeStyle=STRING_CONCATENATION, skipNullValues=false, listArrayContents=true, limitElements=0.0}}, selectionRange={enabled=true}, checkstyle={configuration=, properties={}, version=8.18, modules=[], autocheck=true}, debug={logLevel=warn, settings={showHex=false, showStaticVariables=false, showQualifiedNames=false, showLogicalStructure=true, showToString=true, maxStringLength=0.0, hotCodeReplace=manual, enableRunDebugCodeLens=true, forceBuildBeforeLaunch=true, console=integratedTerminal}}, dependency={showOutline=true, syncWithFolderExplorer=true, autoRefresh=true, refreshDelay=2000.0, packagePresentation=flat}, help={firstView=auto}, test={report={showAfterExecution=onFailure, position=sideView}, editor={enableShortcuts=true}, saveAllBeforeLaunchTest=true, forceBuildBeforeLaunchTest=true, log={level=info}, message={hintForDeprecatedConfig=true, hintForSetingDefaultConfig=true}, defaultConfig=, config={}}}}
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:40.303
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.079
+!MESSAGE >> build jobs finished
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.339
+!MESSAGE >> workspace/executeCommand java.maven.initializeSearcher
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.382
+!MESSAGE >> workspace/executeCommand java.intellicode.enable
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.397
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.401
+!MESSAGE >> registerFeature 'workspace/didChangeWatchedFiles'
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.405
+!MESSAGE >> workspace/executeCommand vscode.java.test.get.testpath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:42.432
+!MESSAGE >> watchers registered
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:47.869
+!MESSAGE Reconciled 0. Took 1041 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:49.299
+!MESSAGE begin problem for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:49.448
+!MESSAGE 1 problems reported for /Init.java
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:49.452
+!MESSAGE Validated 1. Took 1168 ms
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:07:58.237
+!MESSAGE >> workspace/executeCommand java.project.list
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:00.198
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:00.239
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:00.241
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:00.242
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:00.243
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:02.615
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:05.161
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:08:30.823
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:11:58.352
+!MESSAGE >> workspace/didChangeWatchedFiles 
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:01.656
+!MESSAGE >> document/didOpen
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:01.686
+!MESSAGE >> document/codeAction
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:01.701
+!MESSAGE >> workspace/executeCommand java.resolvePath
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:01.703
+!MESSAGE >> document/documentSymbol
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:01.711
+!MESSAGE >> workspace/executeCommand java.getPackageData
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:02.211
+!MESSAGE >> document/foldingRange
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:02.221
+!MESSAGE >> workspace/executeCommand vscode.java.resolveMainMethod
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:02.224
+!MESSAGE >> workspace/executeCommand vscode.java.test.search.codelens
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:03.448
+!MESSAGE >> shutdown
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:03.556
+!MESSAGE Reconciled 0. Took 1483 ms
+
+!ENTRY java-debug 1 0 2019-10-25 18:13:03.757
+!MESSAGE Starting com.microsoft.java.debug.plugin
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:03.953
+!MESSAGE >> exit
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:03.954
+!MESSAGE Shutdown received... waking up main thread
+
+!ENTRY org.eclipse.jdt.ls.core 1 0 2019-10-25 18:13:03.975
+!MESSAGE class org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin is stopping:
+
+!ENTRY org.eclipse.core.jobs 4 2 2019-10-25 18:13:04.145
+!MESSAGE An internal error occurred during: "Publish Diagnostics".
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.jdt.ls.core.internal.JavaLanguageServerPlugin.getProjectsManager(JavaLanguageServerPlugin.java:401)
+	at org.eclipse.jdt.ls.core.internal.JDTUtils.isDefaultProject(JDTUtils.java:867)
+	at org.eclipse.jdt.ls.core.internal.handlers.DiagnosticsHandler.<init>(DiagnosticsHandler.java:51)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.publishDiagnostics(DocumentLifeCycleHandler.java:219)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.publishDiagnostics(DocumentLifeCycleHandler.java:212)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler.access$1(DocumentLifeCycleHandler.java:187)
+	at org.eclipse.jdt.ls.core.internal.handlers.DocumentLifeCycleHandler$2.runInWorkspace(DocumentLifeCycleHandler.java:118)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY java-debug 1 0 2019-10-25 18:13:04.615
+!MESSAGE Stopping com.microsoft.java.debug.plugin

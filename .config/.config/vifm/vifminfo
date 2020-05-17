@@ -1,0 +1,92 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/tblain/
+	..
+1583739235
+'b
+	/home/tblain/bin/
+	..
+1583739236
+'h
+	/home/tblain/
+	..
+1583739236
+'z
+	/home/tblain/.config/vifm
+	..
+1583739235
+
+# Bookmarks:
+
+# TUI:
+al
+q0
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/tblain
+	Pictures
+12
+d/home/tblain/Pictures
+	..
+0
+d/home/tblain
+	Pictures
+12
+d/home
+	tblain
+2
+d/
+	home
+4
+d/home
+	tblain
+2
+d/home/tblain
+	gsimplecal
+22
+d/home/tblain/gsimplecal
+	config
+1
+d/home/tblain
+	Screenshot from 2019-09-07 19-49-49.png
+31
+d
+
+# Right window history (oldest to newest):
+D/home/tblain
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+
+# Local filter history (oldest to newest):
+
+# Registers:
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

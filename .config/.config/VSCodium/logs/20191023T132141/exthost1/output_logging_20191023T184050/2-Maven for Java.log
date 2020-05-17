@@ -1,0 +1,39 @@
+localRepository not specified in Maven Settings.
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/tblain/.config/VSCodium/User/workspaceStorage/f271cb06e1978ea3dad8c4a5ecf636bc/vscjava.vscode-maven/e938a004de7207f1f8714c9d08f7beba\"","-f","\"/home/tblain/Document/cours/M1/web/conception_web/TP3-MIF03/pom.xml\""]}
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.pom
+Progress (1): 2.2/12 kBProgress (1): 5.0/12 kBProgress (1): 7.8/12 kBProgress (1): 11/12 kB Progress (1): 12 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.pom (12 kB at 5.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat-maven-plugin/2.2/tomcat-maven-plugin-2.2.pom
+Progress (1): 2.8/33 kBProgress (1): 5.5/33 kBProgress (1): 8.3/33 kBProgress (1): 11/33 kB Progress (1): 14/33 kBProgress (1): 16/33 kBProgress (1): 19/33 kBProgress (1): 22/33 kBProgress (1): 25/33 kBProgress (1): 27/33 kBProgress (1): 30/33 kBProgress (1): 33/33 kBProgress (1): 33 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat-maven-plugin/2.2/tomcat-maven-plugin-2.2.pom (33 kB at 180 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/apache/12/apache-12.pom
+Progress (1): 2.2/16 kBProgress (1): 5.0/16 kBProgress (1): 7.8/16 kBProgress (1): 11/16 kB Progress (1): 13/16 kBProgress (1): 16 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/apache/12/apache-12.pom (16 kB at 158 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.jar
+Progress (1): 2.2/114 kBProgress (1): 5.0/114 kBProgress (1): 7.7/114 kBProgress (1): 10/114 kB Progress (1): 13/114 kBProgress (1): 16/114 kBProgress (1): 19/114 kBProgress (1): 21/114 kBProgress (1): 24/114 kBProgress (1): 27/114 kBProgress (1): 30/114 kBProgress (1): 32/114 kBProgress (1): 36/114 kBProgress (1): 40/114 kBProgress (1): 45/114 kBProgress (1): 49/114 kBProgress (1): 53/114 kBProgress (1): 57/114 kBProgress (1): 61/114 kBProgress (1): 65/114 kBProgress (1): 69/114 kBProgress (1): 73/114 kBProgress (1): 77/114 kBProgress (1): 81/114 kBProgress (1): 85/114 kBProgress (1): 90/114 kBProgress (1): 94/114 kBProgress (1): 98/114 kBProgress (1): 102/114 kBProgress (1): 106/114 kBProgress (1): 110/114 kBProgress (1): 114/114 kBProgress (1): 114 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat7-maven-plugin/2.2/tomcat7-maven-plugin-2.2.jar (114 kB at 427 kB/s)
+[INFO] 
+[INFO] --------------------< fr.univlyon1.m1if.m1if03:tp3 >--------------------
+[INFO] Building tp2 Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ tp3 ---
+[INFO] Effective-POM written to: /home/tblain/.config/VSCodium/User/workspaceStorage/f271cb06e1978ea3dad8c4a5ecf636bc/vscjava.vscode-maven/e938a004de7207f1f8714c9d08f7beba
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  10.338 s
+[INFO] Finished at: 2019-10-23T18:42:14+02:00
+[INFO] ------------------------------------------------------------------------
+Spawn {"command":"mvn","args":["help:effective-pom","-Doutput=\"/home/tblain/.config/VSCodium/User/workspaceStorage/f271cb06e1978ea3dad8c4a5ecf636bc/vscjava.vscode-maven/11d1ae615a3f534f0e7446d8ba1bd3f7\"","-f","\"/home/tblain/Document/cours/M1/web/conception_web/TP2-MIF03/pom.xml\""]}
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< fr.univlyon1.m1if.m1if03:tp2 >--------------------
+[INFO] Building tp2 Maven Webapp 1.0-SNAPSHOT
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ tp2 ---
+[INFO] Effective-POM written to: /home/tblain/.config/VSCodium/User/workspaceStorage/f271cb06e1978ea3dad8c4a5ecf636bc/vscjava.vscode-maven/11d1ae615a3f534f0e7446d8ba1bd3f7
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.604 s
+[INFO] Finished at: 2019-10-23T18:42:18+02:00
+[INFO] ------------------------------------------------------------------------

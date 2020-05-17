@@ -1,0 +1,200 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tblain/Document/cours/M1/multimif/m1if10
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Choix.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Question.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git rev-parse develop
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/.gitignore
+> git show HEAD:.gitignore
+> git ls-tree -l HEAD -- ./
+> git check-ignore -v -z --stdin
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/.gitignore
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/.gitignore
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /home/tblain/Document/cours/M1/multimif/m1if10/.gitignore
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :.gitignore
+> git add -A -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :.gitignore
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Choix.java
+> git ls-files --stage -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Choix.java
+> git cat-file -s fa734f89a8dac63fb1363b3978491848a6791610
+> git show fa734f89a8dac63fb1363b3978491848a6791610
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Choix.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Choix.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Question.java
+> git ls-files --stage -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Question.java
+> git cat-file -s d01d08a485da54991e547aa36ba2990007f89dc2
+> git show d01d08a485da54991e547aa36ba2990007f89dc2
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Question.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Question.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git ls-files --stage -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git cat-file -s 6de7278c3b0ef6469eccf1042731543585d3dcf5
+> git show 6de7278c3b0ef6469eccf1042731543585d3dcf5
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Questionnaire.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git ls-files --stage -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git cat-file -s 9c4446f4faaf4dd15a8f2cbe4e74c63440b52103
+> git show 9c4446f4faaf4dd15a8f2cbe4e74c63440b52103
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Reponse.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git ls-files --stage -- /home/tblain/Document/cours/M1/multimif/m1if10/webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git cat-file -s 89b0c19558dc0246c8815297b4a9e6b37eebbb0b
+> git show 89b0c19558dc0246c8815297b4a9e6b37eebbb0b
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git branch
+> git reset -q HEAD -- .
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show HEAD:.gitignore
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- ./
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git show HEAD:.gitignore
+> git show HEAD:webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git show :webapp/src/main/java/univ/m1if10/classes/Metier/Utilisateur.java
+> git status -z -u
+> git ls-files --stage -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- webapp/src/main/java/univ/m1if10/classes/Metier/
+> git ls-tree -l HEAD -- ./
+> git symbolic-ref --short HEAD
+> git rev-parse develop
+> git rev-parse --symbolic-full-name develop@{u}
+> git rev-list --left-right develop...refs/remotes/origin/develop
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

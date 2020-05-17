@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 2
+    },
+    "auditLog": "/home/tblain/.config/VSCodium/User/workspaceStorage/1dba3801fb669d1c5a7adeab723cb18b/redhat.java/.6366a4e739702ea686605d2e71c2b8f8e0e10bd1-audit.json",
+    "files": [
+        {
+            "date": 1571847664014,
+            "name": "/home/tblain/.config/VSCodium/User/workspaceStorage/1dba3801fb669d1c5a7adeab723cb18b/redhat.java/client.log.2019-10-23",
+            "hash": "a63611eb4776c21916e889f99b0be900"
+        }
+    ]
+}

@@ -1,0 +1,1 @@
+{"url": "https://github.com/tushortz/JavaIME", "platforms": ["*"], "version": "3.2.3", "description": "Turn your Sublime text into a java completion text editor.", "dependencies": [], "sublime_text": "*"}

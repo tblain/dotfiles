@@ -1,0 +1,61 @@
+package univ.m1if10.servlet;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import univ.m1if10.DAO.UtilisateurDAO;
+import univ.m1if10.classes.Utilisateur;
+import javax.servlet.http.HttpSession;
+
+import java.io.IOException;
+
+import javax.persistence.EntityManager;
+import javax.persistence.Persistence;
+
+@WebServlet(name = "Connection", urlPatterns = "/Connection")
+public class ConnectionServlet extends HttpServlet {
+    private static final long serialVersionUID = 1L;
+    private EntityManager em;
+    private UtilisateurDAO utilisateurDao;
+
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        // Fermeture de la session
+        //request.getSession().invalidate();
+
+	HttpSession session = request.getSession(true);
+	
+        String email = (String) request.getAttribute("email");
+        String mdp = (String) request.getAttribute("mdp");
+
+	if(email == null || email.equals("") || mdp == null || mdp.equals(""))
+	    response.sendRedirect("login.jsp");
+
+
+	Utilisateur user = utilisateurDao.getUtilisateurByEmail(email);
+
+	if(user == null)
+	    response.sendRedirect("login.jsp");
+	else {
+	    session.setAttribute("user", user);
+	    request.getRequestDispatcher("index.html").forward(request, response);
+	}
+        response.sendRedirect("index.html");
+
+    }
+
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	response.sendRedirect("login.jsp");
+    }
+
+    @Override
+    public void init() throws ServletException {
+        super.init();
+	Persistence.createEntityManagerFactory("pu-webapp");
+        //em = Persistence.createEntityManagerFactory("pu-webapp").createEntityManager();
+	//utilisateurDao = new UtilisateurDAO(em);
+    }
+}
+

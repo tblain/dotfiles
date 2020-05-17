@@ -1,0 +1,16 @@
+{ message:
+   'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -jar /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/server/plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar -configuration /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/server/config_linux -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2019-10-25 18:05:44.542' }
+{ message:
+   'Starting Java server with: /usr/lib/jvm/default/bin/java --add-modules=ALL-SYSTEM --add-opens java.base/java.util=ALL-UNNAMED --add-opens java.base/java.lang=ALL-UNNAMED -Declipse.application=org.eclipse.jdt.ls.core.id1 -Dosgi.bundles.defaultStartLevel=4 -Declipse.product=org.eclipse.jdt.ls.core.product -Dfile.encoding=utf8 -noverify -Xmx1G -XX:+UseG1GC -XX:+UseStringDeduplication -jar /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/server/plugins/org.eclipse.equinox.launcher_1.5.600.v20191014-2022.jar -configuration /home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/server/config_linux -data /home/tblain/.config/VSCodium/User/workspaceStorage/d18a947c53a6f8c95d21cccfb62573e7/redhat.java/jdt_ws',
+  level: 'info',
+  timestamp: '2019-10-25 18:07:31.606' }
+{ message:
+   '[Error - 6:13:03 PM] Request textDocument/codeAction failed.',
+  level: 'info',
+  timestamp: '2019-10-25 18:13:03.985' }
+{ message:
+   'Error: Connection got disposed.\n\tat Object.dispose (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:72853)\n\tat Object.dispose (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:121394)\n\tat e.shutdown.then (/home/tblain/.vscode-oss/extensions/redhat.java-0.52.0/dist/extension.js:1:118204)\n\tat i (/home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:188376)\n\tat /home/tblain/.vscode-oss/extensions/vscjava.vscode-java-test-0.20.0/dist/extension.js:16:188870',
+  level: 'info',
+  timestamp: '2019-10-25 18:13:03.997' }

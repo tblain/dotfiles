@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.23.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+> git config --get commit.template
+Open repository: /home/tblain/Document/cours/M1/web/conception_web
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 9-gestion-des-groupes
+> git rev-parse --symbolic-full-name 9-gestion-des-groupes@{u}
+> git rev-list --left-right 9-gestion-des-groupes...refs/remotes/origin/9-gestion-des-groupes
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git show :TP3-MIF03/src/main/java/fr/univlyon1/m1if/m1if03/classes/Groupe.java
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse 9-gestion-des-groupes
+> git rev-parse --symbolic-full-name 9-gestion-des-groupes@{u}
+> git rev-list --left-right 9-gestion-des-groupes...refs/remotes/origin/9-gestion-des-groupes
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

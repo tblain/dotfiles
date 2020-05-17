@@ -1,0 +1,36 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"10% Too Dull for My Tastes Color Scheme",
+		"BracketHighlighter",
+		"C Improved",
+		"C++ Classhelper",
+		"C++ Completions",
+		"C++ Snippets",
+		"Color Scheme - Chromodynamics",
+		"Competitive Programming",
+		"CPP Competitive Programming Snippets",
+		"CppToolkit",
+		"Git",
+		"GitGutter",
+		"gruvbox",
+		"JavaIME",
+		"MagicPython",
+		"Monochrome Color Schemes",
+		"Night Owl",
+		"OpenType Feature Bundle",
+		"Package Control",
+		"Qt Completions for C++",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-clang",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pycodestyle",
+		"Valgrind"
+	]
+}

@@ -1,0 +1,84 @@
+package univ.m1if10.classes;
+
+/**
+ * Utilisateur
+ */
+public class Utilisateur {
+
+    private int id;
+    private String prenom;
+    private String nom;
+    private String email;
+    private String mdp;
+
+    /**
+     * @return int return the id
+     */
+    public int getId() {
+        return id;
+    }
+
+    /**
+     * @param id the id to set
+     */
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    /**
+     * @return String return the prenom
+     */
+    public String getPrenom() {
+        return prenom;
+    }
+
+    /**
+     * @param prenom the prenom to set
+     */
+    public void setPrenom(String prenom) {
+        this.prenom = prenom;
+    }
+
+    /**
+     * @return String return the nom
+     */
+    public String getNom() {
+        return nom;
+    }
+
+    /**
+     * @param nom the nom to set
+     */
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    /**
+     * @return String return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+
+    /**
+     * @param email the email to set
+     */
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    /**
+     * @return String return the mdp
+     */
+    public String getMdp() {
+        return mdp;
+    }
+
+    /**
+     * @param mdp the mdp to set
+     */
+    public void setMdp(String mdp) {
+        this.mdp = mdp;
+    }
+
+}
