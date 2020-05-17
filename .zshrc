@@ -1,14 +1,9 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
-  export ZSH="/home/tblain/.oh-my-zsh"
-
-# Set name of the theme to load --- if set to "random", it will
-# load a random theme each time oh-my-zsh is loaded, in which case,
-# to know which specific one was loaded, run: echo $RANDOM_THEME
+ export PATH=$HOME/bin:/usr/local/bin:$PATH # Path to your oh-my-zsh installation
+ export ZSH="/home/tblain/.oh-my-zsh"
+# Set name of the theme to load --- if set to "random", it will load a random theme each time oh-my-zsh is loaded, in which case, to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="philthy"
+ZSH_THEME="bullet-train"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -16,9 +11,7 @@ ZSH_THEME="philthy"
 # If set to an empty array, this variable will have no effect.
 # ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
-
+# Uncomment the following line to use case-sensitive completion.  CASE_SENSITIVE="true"
 # Uncomment the following line to use hyphen-insensitive completion.
 # Case-sensitive completion must be off. _ and - will be interchangeable.
 # HYPHEN_INSENSITIVE="true"
@@ -27,9 +20,7 @@ ZSH_THEME="philthy"
 # DISABLE_AUTO_UPDATE="true"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
+# export UPDATE_ZSH_DAYS=13 Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
 
 # Uncomment the following line to disable auto-setting terminal title.
@@ -48,9 +39,7 @@ ZSH_THEME="philthy"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
+# You can set one of the optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd" or set a custom format using the strftime function format specifications,
 # see 'man strftime' for details.
 # HIST_STAMPS="mm/dd/yyyy"
 
@@ -67,6 +56,11 @@ plugins=(
   zsh-autosuggestions
   zsh-syntax-highlighting
   sudo
+  extract
+  z
+  extract
+  fasd
+  history
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -76,14 +70,14 @@ source $ZSH/oh-my-zsh.sh
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # You may need to manually set your language environment
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
+#export LANG=en_US.UTF-8
+#export LC_ALL=en_US.UTF-8
 # Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
+if [[ -n $SSH_CONNECTION ]]; then
+   export EDITOR='nvim'
+else
+  export EDITOR='nvim'
+fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -105,10 +99,60 @@ bindkey '^[[1;3C' forward-word
 bindkey '^[[1;3D' backward-word
 bindkey '^[[3;5~' delete-word
 bindkey '^H' backward-delete-word
+# alias nvim
+alias n=nvim
+alias nzsh="n ~/.zshrc"
+alias ni3="n ~/.config/i3/config"
+alias nnvim="n ~/.config/nvim/init.vim"
+
+alias szsh="source ~/.zshrc"
+
+# alias duplication de terminal
+alias dup="nohup termite 'echo pwd'&"
+
+#alias vf="vim $(fzf)"
+
+alias l="exa -l"
+alias suspendre="systemctl suspend"
+
+#cd neural_network alias cd
+alias cdpro="cd ~/Document/projets_persos"
+alias cdproal="cdpro; cd artificial_life_world"
+alias cdprodem="cdpro; cd ia_demineur"
+alias cdproneur="cdpro; cd neural_network"
+
+alias cdm1="cd ~/Document/cours/M1"
+alias cdgl="cdm1; cd GL/m1if01-2019/cv-search/"
+alias cdpa="cdm1; cd M1ProgAvance"
+alias cdbd="cdm1; cd bd/tp1/mif04-gdw-tp-orm/ "
+alias cdia="cdm1; cd ia/ "
+alias cdweb="cdm1; cd web/conception_web"
+alias cdmilf="cdm1; cd multimif/m1if10/webapp"
+alias cdres="cdm1; cd reseau"
+alias cdcomp="cdm1; cd compil"
+alias cdero="cdm1; cd ero"
+alias cdsynt="cdm1; cd synthese"
+alias cdanal="cdm1; cd analyse_image"
+
+source /usr/share/fzf/completion.zsh
+source /usr/share/fzf/key-bindings.zsh
 
 neofetch
 
-export LD_LIBRARY_PATH="$LD_LIBRARY_PATH:/usr/local/cuda-9.0/lib64:/usr/local/cuda/extras/CUPTI/lib64"
-export CUDA_HOME=/usr/local/cuda-9.0
-export PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}
-export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+. /home/tblain/anaconda3/etc/profile.d/conda.sh
+
+export EDITOR='nvim'
+export SUDO_EDITOR='nvim'
+
+JAVA_HOME='/usr/lib/jvm/java-11-openjdk'
+export JAVA_HOME
+export PATH=$PATH:$JAVA_HOME/bin
+export XDG_CONFIG_HOME=$HOME/.config
+
+xset r rate 150 50
+
+export TERM='xterm-256color'
+
+# NN
+export NNN_DE_FILE_MANAGER=thunar
+export NNN_USE_EDITOR=1
