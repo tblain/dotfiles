@@ -1,10 +1,17 @@
-#!/usr/bin/env sh
+#!/bin/bash
 
 # Terminate already running bar instances
-killall -q polybar
+killall polybar 2>~/.config/polybar/.polybar.err
 
 # Wait until the processes have been shut down
-while pgrep -x polybar >/dev/null; do sleep 1; done
+while pgrep -u $UID -x polybar >/dev/null
+do
+	pkill polybar 2>~/.config/polybar/.polybar.err
+	sleep 0.5
+done
 
-# Launch bar1 and bar2
-nohup polybar main > /dev/null 2>&1 &
+#Launch Polybar on every monitor, using default config location ~/.config/polybar/config
+for m in $(polybar --list-monitors | cut -d":" -f1); do
+    MONITOR=$m polybar -r custom 2>>~/.config/polybar/.polybar.err &
+    MONITOR=$m polybar -r vide 2>>~/.config/polybar/.polybar.err &
+done

@@ -1,7 +1,12 @@
 
+include-file = ~/.config/polybar/colors.ini
+include-file = ~/.config/polybar/modules.ini
+
 [colors]
 ;{{{
 ;bg = #210a0e
+
+
 bg = #151515
 fg = #f8f8f8
 
@@ -67,7 +72,7 @@ height = 33
 radius = 0
 fixed-center = true
 bottom = false
-background =
+background = ${color.trans}
 foregound =
 
 wm-restack = i3
@@ -89,7 +94,7 @@ border-radius = 0
 #border-right-color = ${colors.bg}
 
 tray-position = left
-dim-value = 1.0
+dim-value = 0.0
 
 font-0 = Hack:size=12;3
 font-1 = "Font Awesome:style=Solid:pixelsize=12;3"
@@ -111,7 +116,7 @@ cursor-click = pointer
 
 cursor-scroll = default
 
-modules-left = pkg i3
+modules-left = i3
 modules-center =
 modules-right = mpd pulseaudio wlan backlight cpu memory temperature battery date
 

@@ -1,0 +1,15 @@
+[module/wlan]
+;{{{
+type = internal/network
+interface = wlp1s0
+interval = 3
+label-connected = " %downspeed% %upspeed% "
+
+format-connected =<label-connected>
+format-connected-background = ${colors.wifi}
+
+format-suffix = %{T7}%{T-}
+format-suffix-foreground = ${colors.wifi}
+format-suffix-background = ${colors.wifi}
+format-background = ${colors.wifi}
+;}}}
